@@ -16,10 +16,15 @@
 | 사용 GPU | NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition 1장 (97,887 MiB, 약 95.6 GiB) |
 | 실측 peak VRAM | 약 92.62 GB (88,334 MiB) |
 | 총 소요 시간 | 3,307.3초 (약 55분 7초, 900문제 기준) |
-| 의존성 | [`requirements.txt`](../requirements.txt) |
+| 의존성 | [`requirements.txt`](../requirements.txt) (Python 3.12)|
 | 실행 커맨드 | 아래 재현 커맨드 참고 (<GPU_ID>: GPU 번호 (두 곳에 같은 값), <HF_DATASETS_CACHE>: MMMU 데이터 폴더 경로) |
 
 ```bash
+# 환경 설치
+conda create -n mmdl python=3.12 -y && conda activate mmdl
+pip install -r requirements.txt
+
+# 평가 실행
 CUDA_VISIBLE_DEVICES=<GPU_ID> bash scripts/run_mmmu_eval.sh \
   --model-path Qwen/Qwen3-VL-4B-Instruct \
   --model-revision ebb281ec70b05090aa6165b016eac8ec08e71b17 \
