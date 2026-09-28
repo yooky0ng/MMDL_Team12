@@ -6,11 +6,11 @@
     "dataset_revision": "98e6ac0cb9b7b2cd2c991b85a50762edc4aedc68",
     "split": "validation",
     "dtype": "bfloat16",
+    "backend": "vLLM",
+    "backend_version": "0.14.0",
     "tensor_parallel_size": 1,
     "gpu_memory_utilization": 0.5,
     "chunk_size": 32,
-    "backend": "vLLM",
-    "backend_version": "0.14.0",
     "seed": 42,
     "temperature": 0.7,
     "top_p": 0.8,
@@ -18,17 +18,18 @@
     "repetition_penalty": 1.0,
     "presence_penalty": 1.5,
     "prompt_style": "official",
+    "parser_version": 2,
     "max_new_tokens": 128,
     "max_model_len": 32768,
     "min_pixels": 1003520,
     "max_pixels": 4014080,
-    "elapsed_seconds_this_invocation": 99.3373486995697,
-    "peak_gpu_memory_mib_this_invocation": 49454
+    "elapsed_seconds_this_invocation": 99.47280502319336,
+    "peak_gpu_memory_mib_this_invocation": 49452
   },
   "completed": 120,
   "expected": 120,
   "overall_macro_accuracy": 0.14166666666666666,
-  "parse_failures": 90,
+  "parse_failures": 94,
   "truncated_responses": 112,
   "subjects": [
     {
@@ -52,8 +53,8 @@
     {
       "subject": "Art",
       "data_num": 4,
-      "correct": 2,
-      "accuracy": 0.5
+      "correct": 1,
+      "accuracy": 0.25
     },
     {
       "subject": "Art_Theory",
@@ -64,8 +65,8 @@
     {
       "subject": "Basic_Medical_Science",
       "data_num": 4,
-      "correct": 0,
-      "accuracy": 0.0
+      "correct": 1,
+      "accuracy": 0.25
     },
     {
       "subject": "Biology",
@@ -76,14 +77,14 @@
     {
       "subject": "Chemistry",
       "data_num": 4,
-      "correct": 1,
-      "accuracy": 0.25
+      "correct": 0,
+      "accuracy": 0.0
     },
     {
       "subject": "Clinical_Medicine",
       "data_num": 4,
-      "correct": 0,
-      "accuracy": 0.0
+      "correct": 1,
+      "accuracy": 0.25
     },
     {
       "subject": "Computer_Science",
@@ -106,8 +107,8 @@
     {
       "subject": "Economics",
       "data_num": 4,
-      "correct": 0,
-      "accuracy": 0.0
+      "correct": 1,
+      "accuracy": 0.25
     },
     {
       "subject": "Electronics",
@@ -202,8 +203,8 @@
     {
       "subject": "Public_Health",
       "data_num": 4,
-      "correct": 1,
-      "accuracy": 0.25
+      "correct": 0,
+      "accuracy": 0.0
     },
     {
       "subject": "Sociology",
