@@ -50,7 +50,7 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/run_mmmu_eval.sh \
   --max-model-len 32768 \
   --chunk-size 128 \
   --physical-gpu-index 0 \
-  --gpu-memory-utilization 0.90
+  --gpu-memory-utilization 0.50
 ```
 
 모델과 데이터셋은 Hugging Face 표준 캐시에 내려받으며 저장소에는 가중치나
