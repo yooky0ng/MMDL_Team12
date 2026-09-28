@@ -31,6 +31,7 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/run_mmmu_eval.sh \
   --chunk-size 128 \
   --physical-gpu-index 0 \
   --gpu-memory-utilization 0.90
+```
 
 ## 2. 프롬프트
 
