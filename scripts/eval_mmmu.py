@@ -38,6 +38,9 @@ SUBJECTS = [
     "Sociology",
 ]
 
+# 2: 객관식 명시 답안 패턴의 소문자 오탐 수정 및 굵게(**) 표시 제거
+PARSER_VERSION = 2
+
 # Qwen 공식 MMMU 평가 코드의 이미지 해상도
 MIN_PIXELS = 1280 * 28 * 28
 MAX_PIXELS = 5120 * 28 * 28
@@ -73,6 +76,11 @@ def parse_args() -> argparse.Namespace:
         choices=["direct", "official"],
         default="official",
         help="Prompt used for the submitted baseline or Qwen's official MMMU template.",
+    )
+    parser.add_argument(
+        "--rescore-only",
+        action="store_true",
+        help="Re-parse saved responses in <output-dir>/predictions.jsonl without generation.",
     )
     return parser.parse_args()
 
@@ -149,10 +157,12 @@ def prepare_vllm_input(messages: list[dict[str, Any]], processor: Any) -> dict[s
 def parse_multi_choice_response(
     response: str, choices: list[str], index_to_answer: dict[str, str]
 ) -> str | None:
+    # "**B. ...**" 같은 굵게 표시를 제거하고, 선택지 문자는 대문자만 인정한다
+    # ("answer is approximately"의 a를 A로 읽는 오탐 방지)
+    response = response.replace("**", "")
     explicit = re.findall(
-        rf"(?:final\s+answer|answer)\s*(?:is|:)?\s*[\(\[]?([{''.join(choices)}])[\)\]]?",
+        rf"(?i:final\s+answer|answer)\s*(?:is|:)?\s*[\(\[]?([{''.join(choices)}])[\)\]]?(?![A-Za-z])",
         response,
-        flags=re.IGNORECASE,
     )
     boxed = re.findall(
         rf"\\boxed\{{\s*([{''.join(choices)}])\s*\}}", response, flags=re.IGNORECASE
@@ -268,6 +278,24 @@ def parse_and_score(sample: dict[str, Any], response: str, options: list[str]) -
         return prediction, prediction == sample["answer"]
     prediction = parse_open_response(response)
     return prediction, score_open_answer(sample["answer"], prediction)
+
+
+def score_response(
+    sample: dict[str, Any], response: str, options: list[str], finish_reason: str | None
+) -> tuple[Any, bool]:
+    parsed, correct = parse_and_score(sample, response, options)
+    # 잘린 추론 과정에 포함된 선택지 문자는 정답으로 처리하지 않음
+    has_explicit_answer = bool(
+        re.search(r"(?:final\s+answer|answer)\s*(?:is|:)", response, re.I)
+        or re.search(r"\\boxed\{", response)
+    )
+    if (
+        sample["question_type"] == "multiple-choice"
+        and finish_reason == "length"
+        and not has_explicit_answer
+    ):
+        return None, False
+    return parsed, correct
 
 
 def load_samples(
@@ -416,6 +444,46 @@ def write_summary(
         handle.write(f"Overall,{len(results)},{sum(r['correct'] for r in results)},{overall:.6f}\n")
 
 
+def rescore(args: argparse.Namespace, output_dir: Path, predictions_path: Path) -> None:
+    results = read_completed(predictions_path)
+    if not results:
+        raise RuntimeError(f"No saved responses found in {predictions_path}")
+    samples = {
+        sample["id"]: sample for sample in load_samples(args.data_root, None, None, None)
+    }
+
+    # 첫 재채점 전의 원본 채점 결과를 보존
+    backup_path = output_dir / "predictions.before_rescore.jsonl"
+    if not backup_path.exists():
+        backup_path.write_bytes(predictions_path.read_bytes())
+
+    for result in results.values():
+        sample = samples[result["id"]]
+        options = ast.literal_eval(sample["options"])
+        parsed, correct = score_response(
+            sample, result["response"], options, result.get("finish_reason")
+        )
+        result["parsed_prediction"] = parsed
+        result["correct"] = bool(correct)
+
+    with predictions_path.open("w", encoding="utf-8") as handle:
+        for result in results.values():
+            handle.write(json.dumps(result, ensure_ascii=False) + "\n")
+
+    summary_path = output_dir / "summary.json"
+    previous = json.loads(summary_path.read_text(encoding="utf-8")) if summary_path.exists() else {}
+    metadata = previous.get("metadata", {})
+    metadata["parser_version"] = PARSER_VERSION
+    metadata["rescored_without_generation"] = True
+    write_summary(
+        list(results.values()), output_dir, metadata,
+        expected_count=previous.get("expected", len(results)),
+    )
+    correct_count = sum(result["correct"] for result in results.values())
+    print(f"Rescored {len(results)} saved responses: {correct_count} correct")
+    print(f"Summary: {summary_path}")
+
+
 def main() -> None:
     args = parse_args()
     if args.limit is not None and args.limit <= 0:
@@ -433,6 +501,9 @@ def main() -> None:
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     predictions_path = output_dir / "predictions.jsonl"
+    if args.rescore_only:
+        rescore(args, output_dir, predictions_path)
+        return
     completed = read_completed(predictions_path)
 
     start_time = time.time()
@@ -484,18 +555,9 @@ def main() -> None:
                 for sample, options, prompt, generated in zip(chunk, option_lists, prompts, outputs):
                     completion = generated.outputs[0]
                     response = completion.text.strip()
-                    parsed, correct = parse_and_score(sample, response, options)
-                    # 잘린 추론 과정에 포함된 선택지 문자는 정답으로 처리하지 않음
-                    has_explicit_answer = bool(
-                        re.search(r"(?:final\s+answer|answer)\s*(?:is|:)", response, re.I)
-                        or re.search(r"\\boxed\{", response)
+                    parsed, correct = score_response(
+                        sample, response, options, completion.finish_reason
                     )
-                    if (
-                        sample["question_type"] == "multiple-choice"
-                        and completion.finish_reason == "length"
-                        and not has_explicit_answer
-                    ):
-                        parsed, correct = None, False
                     result = {
                         "id": sample["id"],
                         "subject": sample["subject"],
@@ -541,6 +603,7 @@ def main() -> None:
         "repetition_penalty": 1.0,
         "presence_penalty": 1.5,
         "prompt_style": args.prompt_style,
+        "parser_version": PARSER_VERSION,
         "max_new_tokens": args.max_new_tokens,
         "max_model_len": args.max_model_len,
         "min_pixels": MIN_PIXELS,
