@@ -148,6 +148,6 @@ Question: {question}
 
 - 초기 파서(v1)는 선택지 문자를 대소문자 구분 없이 찾았기 때문에, `answer is approximately`의 첫 글자 `a`를 선택지 A로 잘못 인식하는 경우가 있었다. 선택지 문자를 대문자로 제한하도록 수정한 파서(v2)로 v1 실행의 응답 900개를 다시 채점하면 정답 수가 546개에서 563개로 17개 늘어난다.
 
-- 최종 제출 점수 582/900(64.67%)은 재채점 결과가 아니라, 파서 v2를 적용한 뒤 900문제 전체를 새로 생성하고 채점한 결과다. 수정 전 결과는 `results/ablations/official_prompt_16384_full900_parser_v1/`에 비교용으로 보관했다.
+- 최종 제출 점수 582/900(64.67%)은 재채점 결과가 아니라, 파서 v2를 적용한 뒤 900문제 전체를 새로 생성하고 채점한 결과다. 수정 전 결과는 [`results/ablations/official_prompt_16384_full900_parser_v1/`](../results/ablations/official_prompt_16384_full900_parser_v1/)에 비교용으로 보관했다.
 
 - 시간 제약으로 인해 `transformers.generate()` 기반 파이프라인을 동일 조건에서 끝까지 비교하지 못한 점은 한계로 남는다. vLLM과 동일한 프롬프트, sampling 설정, 파서 조건에서 Transformers 결과까지 비교했다면 추론 백엔드에 따른 성능 및 실행 시간 차이까지 더 명확히 분석할 수 있었을 것이다.
