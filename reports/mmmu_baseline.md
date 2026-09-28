@@ -54,7 +54,7 @@ Please select the correct answer from the options above.
 Question: {question}
 ```
 
-- **출처**: [Qwen3-VL 공식 MMMU 평가 코드의 `build_mmmu_prompt()`](https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/evaluation/mmmu/run_mmmu.py#L23-L43) 
+- **출처**: [Qwen3-VL 공식 MMMU 평가 코드의 `build_mmmu_prompt()`](https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/evaluation/mmmu/run_mmmu.py#L23-L43) (+ 일부 수정)
 - **선택 이유:** Qwen이 공개한 MMMU 평가 코드의 프롬프트 형식을 기준으로 사용하여, 임의의 프롬프트 설계가 성능에 미치는 영향을 줄이고 공식 결과와 가능한 한 유사한 조건에서 비교하기 위해 선택하였다. <br>
 이후 Hugging Face MMMU/MMMU 데이터 구조와 평가 환경에 맞추어 일부 구현을 수정하였다. 우선 이미지 입력 방식을 Hugging Face MMMU/MMMU의 데이터 구조에 맞추기 위해 문항 내 `<image N>` 표기를 `[Image N]`으로 변환하였다. Hugging Face MMMU/MMMU에서는 실제 이미지가 `image_1`부터 `image_7`까지 별도의 필드로 제공되므로, 실제 이미지들은 텍스트와 분리된 multimodal content로 전달하고 질문 문자열에는 이미지의 위치를 나타내는 `[Image N]` 참조 표기만 남기도록 수정하였다.<br>
 또한 모델이 응답을 생성하는 형식에 맞춰 입력을 구성하기 위해 모델의 chat template에 `add_generation_prompt=True`를 적용하였다. 객관식 선택지는 각 문항의 실제 선택지 수를 반영하기 위해 A부터 해당 문항의 마지막 선택지까지 동적으로 생성하도록 수정하였다.<br>
