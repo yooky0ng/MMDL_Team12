@@ -3,7 +3,7 @@
 - **팀명**: 012
 - **팀원**: 김다인, 최재원, 하유경
 - **작성일**: 2026.09.28.
-- **재현 커맨드**: `bash scripts/run_mmmu_eval.sh` (전체 커멘드는 1번에 기재)
+- **재현 커맨드**: `bash scripts/run_mmmu_eval.sh` (전체 커멘드는 1절에 기재)
 
 ---
 
@@ -12,8 +12,8 @@
 | 항목 | 값 |
 |---|---|
 | 모델 checkpoint | `Qwen/Qwen3-VL-4B-Instruct` (ebb281ec70b05090aa6165b016eac8ec08e71b17) |
-| 추론 백엔드 | `vLLM 0.14.0` |
-| 사용 GPU | NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition 1장 (약 102.64 GB, 97,887 MiB) |
+| 추론 백엔드 | `vLLM 0.14.0` 900개의 멀티모달 요청을 단일 대용량 GPU에서 효율적으로 배치 처리하기 위해 vLLM을 추론 백엔드로 선택하였다. |
+| 사용 GPU | NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition 1장 (97,887 MiB, 약 95.6 GiB) |
 | 실측 peak VRAM | 약 92.62 GB (88,334 MiB) |
 | 총 소요 시간 | 3,307.3초 (약 55분 7초, 900문제 기준) |
 | 의존성 | [`requirements.txt`](../requirements.txt) |
@@ -32,6 +32,7 @@ CUDA_VISIBLE_DEVICES=<GPU_ID> bash scripts/run_mmmu_eval.sh \
   --physical-gpu-index <GPU_ID> \
   --gpu-memory-utilization 0.90
 ```
+
 
 ## 2. 프롬프트
 
@@ -53,10 +54,10 @@ Please select the correct answer from the options above.
 Question: {question}
 ```
 
-문항의 `<image N>` 표기는 `[Image N]`으로 변환하고, 존재하는 `image_1`부터 `image_7`까지를 텍스트와 별도의 multimodal content로 전달하였습니다. 이후 모델의 chat template을 `add_generation_prompt=True`로 적용하였습니다.
+문항의 `<image N>` 표기는 `[Image N]`으로 변환하고, 존재하는 `image_1`부터 `image_7`까지를 텍스트와 별도의 multimodal content로 전달하였다. 이후 모델의 chat template을 `add_generation_prompt=True`로 적용하였다. 선택지 수에 따라 A부터 마지막 선택지까지 동적으로 생성하였다.
 
 - **출처**: [Qwen3-VL 공식 MMMU 평가 코드의 `build_mmmu_prompt()`](https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/evaluation/mmmu/run_mmmu.py#L23-L43)
-- **선택 이유**: Qwen이 공개한 MMMU 평가 코드의 프롬프트 형식을 기준으로 사용하여 임의의 프롬프트 설계가 성능에 미치는 영향을 줄이고 공식 결과와 가능한 한 유사한 조건에서 비교하기 위해 선택하였습니다.
+- **선택 이유**: Qwen이 공개한 MMMU 평가 코드의 프롬프트 형식을 기준으로 사용하여 임의의 프롬프트 설계가 성능에 미치는 영향을 줄이고 공식 결과와 가능한 한 유사한 조건에서 비교하기 위해 선택하였다.
 
 
 
@@ -74,21 +75,21 @@ Question: {question}
 | `presence_penalty` | 1.5 |
 | `seed` | 42 |
 
-- **출처**: [Qwen3-VL 공식 MMMU 평가 코드](https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/evaluation/mmmu/run_mmmu.py)의 vLLM `SamplingParams` 및 `LLM(seed=42)` 설정을 사용하였습다.
+- **출처**: [Qwen3-VL 공식 MMMU 평가 코드](https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/evaluation/mmmu/run_mmmu.py)의 vLLM `SamplingParams` 및 `LLM(seed=42)` 설정을 사용하였다.
 
 ### 3.2 생성 예산 / 이미지 해상도
 
 | 파라미터 | 값 |
 |---|---|
 | `max_new_tokens` | 16,384 |
-| 이미지 해상도 처리 (`min_pixels`/`max_pixels` 등) | `min_pixels=1,003,520`, `max_pixels=4,014,080`, `max_model_len=32,768`, `gpu_memory_utilization=0.90`, `chunk_size=128` |
+| 이미지 해상도 처리 (`min_pixels`/`max_pixels` 등) | `min_pixels=1,003,520`, `max_pixels=4,014,080` |
 
-**선택 근거** (본인이 사용한 인프라 제약과 어떻게 연결되는지 — 속도/VRAM/응답 잘림 등 trade-off): 이미지 해상도 범위는 Qwen 공식 MMMU 평가 설정을 따랐습니다. 생성 길이는 동일한 객관식 120문제를 대상으로 parser v2에서 비교하였습니다. `max_new_tokens`가 4,096일 때 67/120(55.83%), 16,384일 때 74/120(61.67%), 32,768일 때 76/120(63.33%)이었습니다. 16,384에서 32,768로 늘렸을 때 정답은 2문제 증가했지만 32,768 실험에는 1,622.9초가 소요되었습니다. 따라서 전체 900문제 평가 시간과 이후 fine-tuned checkpoint 재평가 비용을 고려하여 16,384를 선택하였습니다. 최종 실행의 peak VRAM은 88,334 MiB였습니다.
+**선택 근거** (본인이 사용한 인프라 제약과 어떻게 연결되는지 — 속도/VRAM/응답 잘림 등 trade-off): 이미지 해상도 범위는 Qwen 공식 MMMU 평가 설정을 따랐다. 생성 길이는 동일한 객관식 120문제를 대상으로 parser v2에서 비교하였다. `max_new_tokens`가 4,096일 때 67/120(55.83%), 16,384일 때 74/120(61.67%), 32,768일 때 76/120(63.33%)이었다. 16,384에서 32,768로 늘렸을 때 정답은 2문제 증가했지만 32,768 실험에는 1,622.9초가 소요되었다. 따라서 전체 900문제 평가 시간과 이후 fine-tuned checkpoint 재평가 비용을 고려하여 16,384를 선택하였다. 최종 실행의 peak VRAM은 88,334 MiB였다. 
 
 ## 4. 채점(파싱) 방식
 
-- 사용한 파서/로직: [`scripts/eval_mmmu.py`](../scripts/eval_mmmu.py)의 자체 규칙 기반 parser v2. 기본 구조는 [MMMU 공식 평가 유틸리티](https://github.com/MMMU-Benchmark/MMMU/blob/main/mmmu/utils/eval_utils.py)를 참고하였으며 외부 LLM judge는 사용하지 않았습니다.
-- 동작 방식 요약: 객관식은 먼저 `Final answer: B`, `answer is B`, `\boxed{B}`와 같이 명시된 선택지를 탐색합니다. 없으면 `(B)`, 독립된 `B`, `B.` 등을 찾고 여러 후보가 있으면 응답에서 가장 마지막에 나온 후보를 선택합니다. 그래도 찾지 못하고 응답이 5단어보다 긴 경우 선택지 본문의 등장 위치를 이용해 fallback parsing을 수행합니다. 길이 제한으로 종료된 응답에 명시적 최종 답이 없으면 풀이 과정의 선택지를 정답으로 인정하지 않습니다. 끝까지 추출하지 못한 경우 parsing failure로 처리하여 오답으로 기록합니다. 주관식은 `answer`, `result`, `therefore`, `=` 등의 뒤쪽 표현 및 응답 내 숫자를 후보로 추출하고 문자열은 소문자화하며 숫자는 쉼표 제거 후 소수 둘째 자리까지 정규화하여 정답과 비교합니다.
+- 사용한 파서/로직: [`scripts/eval_mmmu.py`](../scripts/eval_mmmu.py)의 자체 규칙 기반 parser v2. 기본 구조는 [MMMU 공식 평가 유틸리티](https://github.com/MMMU-Benchmark/MMMU/blob/main/mmmu/utils/eval_utils.py)를 참고하였으며 외부 LLM judge는 사용하지 않았다.
+- 동작 방식 요약: 객관식은 먼저 `Final answer: B`, `answer is B`, `\boxed{B}`와 같이 명시된 선택지를 탐색한다. 없으면 `(B)`, 독립된 `B`, `B.` 등을 찾고 여러 후보가 있으면 응답에서 가장 마지막에 나온 후보를 선택한다. 그래도 찾지 못하고 응답이 5단어보다 긴 경우 선택지 본문의 등장 위치를 이용해 fallback parsing을 수행한다. 길이 제한으로 종료된 응답에 명시적 최종 답이 없으면 풀이 과정의 선택지를 정답으로 인정하지 않는다. 끝까지 추출하지 못한 경우 parsing failure로 처리하여 오답으로 기록한다. 주관식은 `answer`, `result`, `therefore`, `=` 등의 뒤쪽 표현 및 응답 내 숫자를 후보로 추출하고 문자열은 소문자화하며 숫자는 쉼표 제거 후 소수 둘째 자리까지 정규화하여 정답과 비교한다.
 
 ## 5. 결과
 
@@ -138,13 +139,13 @@ Question: {question}
 
 ## 7. 격차 분석
 
-재현 점수는 64.67%로 공식 67.4%보다 2.73%p 낮았습니다. 최종 실행에서 88개 응답이 16,384토큰 제한에 도달했으며 이 중 17개(19.32%)만 정답이었습니다. 반면 정상 종료 812개 중 565개(69.58%)가 정답이었습니다. 그러나 동일한 객관식 120문제에서 16,384토큰과 32,768토큰의 정답 수가 각각 74개와 76개였으므로 생성 길이만으로 전체 격차를 설명하기는 어렵습니다. 또한, 공식 평가에서는 규칙 기반 추출 실패 시 추가 answer-extraction judge를 사용할 수 있지만 본 파이프라인은 재현성과 비용을 위해 외부 LLM judge 없이 실패를 오답 처리하였습니다. 최종 실행에서 parsing failure는 45건이었고 주관식 정확도는 22/53(41.51%)이었습니다. 따라서 응답 절단, 답안 추출 방식 및 sampling 변동이 격차에 함께 영향을 주었을 가능성이 있습다.
+재현 점수는 64.67%로 공식 67.4%보다 2.73%p 낮았다. 최종 실행에서 88개 응답이 16,384토큰 제한에 도달했으며 이 중 17개(19.32%)만 정답이었다. 반면 정상 종료 812개 중 565개(69.58%)가 정답이었다. 그러나 동일한 객관식 120문제에서 16,384토큰과 32,768토큰의 정답 수가 각각 74개와 76개였으므로 생성 길이만으로 전체 격차를 설명하기는 어렵다. 또한, Qwen 공식 평가 코드는 규칙 기반 답안 추출이 실패한 경우 GPT 기반 answer-extraction judge를 사용하지만 본 파이프라인은 재현성과 비용을 위해 외부 LLM judge 없이 실패를 오답 처리하였다. 최종 실행에서 parsing failure는 45건이었고 주관식 정확도는 22/53(41.51%)이었다. 따라서 응답 절단, 답안 추출 방식 및 sampling 변동이 격차에 함께 영향을 주었을 가능성이 있다.
 
 
 ## 8. 기타 특이사항 / 한계 (Optional)
 
-- 초기 parser v1에서는 대소문자를 구분하지 않는 정규식으로 인해 `answer is approximately`의 첫 `a`를 선택지 A로 잘못 인식할 수 있었습니다. 저장된 v1 응답 900개를 수정된 parser v2로 다시 채점했을 때 정답 수는 546개에서 563개로 17개 증가하였습니다.
+- 초기 parser v1에서는 대소문자를 구분하지 않는 정규식으로 인해 `answer is approximately`의 첫 `a`를 선택지 A로 잘못 인식할 수 있었다. 저장된 v1 응답 900개를 수정된 parser v2로 다시 채점했을 때 정답 수는 546개에서 563개로 17개 증가하였다.
 
-- 최종 제출 점수는 기존 응답을 재채점한 563개가 아니라, parser v2를 고정한 뒤 900문제 전체를 새로 생성하고 즉시 채점하여 얻은 582/900 (64.67%)입니다. parser 수정 전 결과는 `results/ablations/official_prompt_16384_full900_parser_v1/`에 비교용으로 보관하였습니다.
+- 최종 제출 점수는 기존 응답을 재채점한 563개가 아니라, parser v2를 고정한 뒤 900문제 전체를 새로 생성하고 즉시 채점하여 얻은 582/900 (64.67%)입니다. parser 수정 전 결과는 `results/ablations/official_prompt_16384_full900_parser_v1/`에 비교용으로 보관하였다.
 
-- 최종 실행에서는 길이 제한 도달 88건과 parsing failure 45건이 발생하였습니다. 이후 fine-tuning 전후 성능 비교에서는 모델 checkpoint만 변경하고 현재 프롬프트, sampling recipe, 생성 예산, 이미지 설정 및 parser v2를 동일하게 유지하여 평가할 예정입니다.
+- 최종 실행에서는 길이 제한 도달 88건과 parsing failure 45건이 발생하였다. 이후 fine-tuning 전후 성능 비교에서는 모델 checkpoint만 변경하고 현재 프롬프트, sampling recipe, 생성 예산, 이미지 설정 및 parser v2를 동일하게 유지하여 평가할 예정이다.
