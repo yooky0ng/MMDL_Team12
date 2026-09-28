@@ -1,6 +1,6 @@
 # MMMU-val Baseline Evaluation Report — Qwen3-VL-4B-Instruct
 
-- **팀명**: MMDL Team 12
+- **팀명**: 012
 - **팀원**: 김다인, 최재원, 하유경
 - **작성일**: 2026.09.28.
 - **재현 커맨드**: `CUDA_VISIBLE_DEVICES=0 bash scripts/run_mmmu_eval.sh`
@@ -47,7 +47,7 @@ D. {option_D}
 Please select the correct answer from the options above.
 ```
 
-- **출처**: _(Qwen3-VL 공식 MMMU 평가 코드의 build_mmmu_prompt()를 참고하여 구현하였습니다.)_
+- **출처**: Qwen3-VL 공식 MMMU 평가 코드의 build_mmmu_prompt()를 참고하여 구현하였습니다.
 - **선택 이유**: _(왜 이 프롬프트를 골랐는지)_
 
 
@@ -69,7 +69,7 @@ Please select the correct answer from the options above.
 | `presence_penalty` | 1.5 |
 | `seed` | 42 |
 
-- **출처**: _([Qwen3-VL 공식 MMMU Instruct inference 설정](https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/evaluation/mmmu/infer_instruct.sh)  )_
+- **출처**: [Qwen3-VL 공식 MMMU Instruct inference 설정](https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/evaluation/mmmu/infer_instruct.sh)
 
 ### 3.2 생성 예산 / 이미지 해상도
 
@@ -91,7 +91,7 @@ Please select the correct answer from the options above.
 
 ## 4. 채점(파싱) 방식
 
-- 사용한 파서/로직: _(자체 규칙 기반 파서 ([`scripts/eval_mmmu.py`](../scripts/eval_mmmu.py)))_
+- 사용한 파서/로직: 자체 규칙 기반 파서 ([`scripts/eval_mmmu.py`](../scripts/eval_mmmu.py))
 - 동작 방식 요약: 객관식 문제에서는 다음 순서로 모델의 자유 텍스트 응답에서 선택지를 추출하였습니다.
 1. answer is A, final answer: B 등 명시적인 final-answer 표현을 우선 탐색한다.
 2. \boxed{A} 형태의 응답을 탐색한다.
@@ -150,7 +150,7 @@ Please select the correct answer from the options above.
 
 ## 7. 격차 분석
 
-_(우리 재현 결과는 60.67%로 공식 성능 67.4보다 6.73%p 낮았다. 생성 길이의 영향을 확인하기 위해 동일한 객관식 120문제에서 max_new_tokens를 128, 4,096, 32,768로 변경한 결과 정확도는 각각 14.17%, 54.17%, 59.17%였고, length limit 도달은 112건, 20건, 17건으로 감소하였다. 이는 생성 예산이 평가 성능에 직접 영향을 줄 수 있음을 보여준다. 최종 평가에서는 16,384토큰을 사용했지만 여전히 900문제 중 96개 응답이 길이 제한에 도달했고, 객관식 43건에서 parsing failure가 발생하였다. 또한 본 평가는 외부 LLM Judge 없이 규칙 기반 파서만 사용하므로 자유 형식 응답을 정답으로 추출하지 못하는 경우가 있을 수 있다. 따라서 생성 길이 제한과 답안 파싱 방식의 차이가 공식 수치와의 격차에 일부 영향을 주었을 가능성이 있다.)_
+우리 재현 결과는 60.67%로 공식 성능 67.4보다 6.73%p 낮았다. 생성 길이의 영향을 확인하기 위해 동일한 객관식 120문제에서 max_new_tokens를 128, 4,096, 32,768로 변경한 결과 정확도는 각각 14.17%, 54.17%, 59.17%였고, length limit 도달은 112건, 20건, 17건으로 감소하였다. 이는 생성 예산이 평가 성능에 직접 영향을 줄 수 있음을 보여준다. 최종 평가에서는 16,384토큰을 사용했지만 여전히 900문제 중 96개 응답이 길이 제한에 도달했고, 객관식 43건에서 parsing failure가 발생하였다. 또한 본 평가는 외부 LLM Judge 없이 규칙 기반 파서만 사용하므로 자유 형식 응답을 정답으로 추출하지 못하는 경우가 있을 수 있다. 따라서 생성 길이 제한과 답안 파싱 방식의 차이가 공식 수치와의 격차에 일부 영향을 주었을 가능성이 있다.
 
 
 ## 8. 기타 특이사항 / 한계 (Optional)
