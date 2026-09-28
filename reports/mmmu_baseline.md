@@ -17,7 +17,9 @@
 | 실측 peak VRAM | _(88,334 MiB (약 86.26 GiB))_ |
 | 총 소요 시간 | _(3,708.2초 (약 61분 48초))_ |
 | 의존성 | _([`requirements.txt`](../requirements.txt))_ |
-| 실행 커맨드 | ```bash
+| 실행 커맨드 | 아래 재현 커맨드 참고 |
+
+```bash
 CUDA_VISIBLE_DEVICES=0 bash scripts/run_mmmu_eval.sh \
   --model-path Qwen/Qwen3-VL-4B-Instruct \
   --model-revision ebb281ec70b05090aa6165b016eac8ec08e71b17 \
@@ -28,7 +30,7 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/run_mmmu_eval.sh \
   --max-model-len 32768 \
   --chunk-size 128 \
   --physical-gpu-index 0 \
-  --gpu-memory-utilization 0.90 |
+  --gpu-memory-utilization 0.90
 
 ## 2. 프롬프트
 
