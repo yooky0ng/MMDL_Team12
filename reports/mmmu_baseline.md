@@ -1,9 +1,9 @@
 # MMMU-val Baseline Evaluation Report — Qwen3-VL-4B-Instruct
 
-- **팀명**: _(MMDL Team 12)_
-- **팀원**: _(김다인, 최재원, 하유경)_
-- **작성일**: _(2026.09.28.)_
-- **재현 커맨드**: `(예: bash scripts/run_mmmu_eval.sh)`
+- **팀명**: MMDL Team 12
+- **팀원**: 김다인, 최재원, 하유경
+- **작성일**: 2026.09.28.
+- **재현 커맨드**: `CUDA_VISIBLE_DEVICES=0 bash scripts/run_mmmu_eval.sh`
 
 ---
 
@@ -38,13 +38,13 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/run_mmmu_eval.sh \
 **실제 모델에 들어간 프롬프트 전문** (변수 부분은 `{}`로 표시):
 
 ```
-_(Question: {question}
+Question: {question}
 Options:
 A. {option_A}
 B. {option_B}
 C. {option_C}
 D. {option_D}
-Please select the correct answer from the options above.)_
+Please select the correct answer from the options above.
 ```
 
 - **출처**: _(Qwen3-VL 공식 MMMU 평가 코드의 build_mmmu_prompt()를 참고하여 구현하였습니다.)_
