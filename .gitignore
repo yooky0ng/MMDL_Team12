@@ -6,3 +6,7 @@ __pycache__/
 *.log
 # 원본 생성 응답은 로컬 분석용으로만 보관
 results/**/predictions.jsonl
+# Large Point-CoT artifacts (download locally)
+processed/Point-CoT_qwen3vl_integrated.json
+source_images/
+datasets/point_cot/*.json
