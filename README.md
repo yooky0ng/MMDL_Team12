@@ -76,6 +76,7 @@ CUDA_VISIBLE_DEVICES="$GPU" bash scripts/run_mmmu_eval.sh \
 
 세부 결과와 추가 실험은 [`results/README.md`](results/README.md), 이전 0.90 실행 분석은
 [`reports/mmmu_baseline.md`](reports/mmmu_baseline.md)에 기록합니다.
+GPU 자원 제약으로 0.50으로 바꿔 실험을 하게 된 만큼, 같은 조건에서 성능을 비교하기 위해 gpu_memory_utilization을 0.50으로 다시 실험해서 돌린 결과를 baseline에 기재하였습니다.
 
 ## 최종 모델 재현
 
