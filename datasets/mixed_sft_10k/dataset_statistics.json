@@ -1,0 +1,140 @@
+{
+  "seed": 42,
+  "input_sha256": "db20e5f5b00ecd0401f37ce6b0b6480bb475f23d6eede844a34311e835c2ddaf",
+  "counts": {
+    "point_cot": 8000,
+    "mmvu": 2000
+  },
+  "point_cot_source_counts": {
+    "ChartQA": 3320,
+    "DVQA": 2840,
+    "PlotQA": 1584,
+    "CLEVR": 152,
+    "TallyQA": 104
+  },
+  "mmvu_local_groups": 1000,
+  "excluded_candidate_units": 5,
+  "length_statistics": {
+    "ChartQA": {
+      "before": {
+        "unit": "characters, not tokens",
+        "count": 9960,
+        "mean": 785.687951807229,
+        "median": 538.0,
+        "p90": 1289,
+        "p95": 2415,
+        "max": 7419
+      },
+      "selected": {
+        "unit": "characters, not tokens",
+        "count": 3320,
+        "mean": 782.4295180722892,
+        "median": 536.5,
+        "p90": 1264,
+        "p95": 2365,
+        "max": 6793
+      }
+    },
+    "DVQA": {
+      "before": {
+        "unit": "characters, not tokens",
+        "count": 8520,
+        "mean": 2819.5776995305164,
+        "median": 2751.5,
+        "p90": 3716,
+        "p95": 4046,
+        "max": 7573
+      },
+      "selected": {
+        "unit": "characters, not tokens",
+        "count": 2840,
+        "mean": 2820.156690140845,
+        "median": 2760.0,
+        "p90": 3718,
+        "p95": 4058,
+        "max": 6466
+      }
+    },
+    "PlotQA": {
+      "before": {
+        "unit": "characters, not tokens",
+        "count": 4752,
+        "mean": 2642.2003367003367,
+        "median": 2563.0,
+        "p90": 3649,
+        "p95": 4012,
+        "max": 6038
+      },
+      "selected": {
+        "unit": "characters, not tokens",
+        "count": 1584,
+        "mean": 2638.3219696969695,
+        "median": 2559.0,
+        "p90": 3613,
+        "p95": 3994,
+        "max": 5617
+      }
+    },
+    "CLEVR": {
+      "before": {
+        "unit": "characters, not tokens",
+        "count": 456,
+        "mean": 860.9188596491229,
+        "median": 735.5,
+        "p90": 1529,
+        "p95": 1827,
+        "max": 3617
+      },
+      "selected": {
+        "unit": "characters, not tokens",
+        "count": 152,
+        "mean": 873.3157894736842,
+        "median": 715.0,
+        "p90": 1575,
+        "p95": 2058,
+        "max": 2500
+      }
+    },
+    "TallyQA": {
+      "before": {
+        "unit": "characters, not tokens",
+        "count": 312,
+        "mean": 1042.1602564102564,
+        "median": 990.0,
+        "p90": 1475,
+        "p95": 1612,
+        "max": 2677
+      },
+      "selected": {
+        "unit": "characters, not tokens",
+        "count": 104,
+        "mean": 1011.1346153846154,
+        "median": 933.5,
+        "p90": 1531,
+        "p95": 1613,
+        "max": 2325
+      }
+    },
+    "MMVU": {
+      "before": {
+        "unit": "characters, not tokens",
+        "count": 6000,
+        "mean": 43.3785,
+        "median": 43.0,
+        "p90": 56,
+        "p95": 59,
+        "max": 91
+      },
+      "selected": {
+        "unit": "characters, not tokens",
+        "count": 2000,
+        "mean": 43.574,
+        "median": 43.0,
+        "p90": 56,
+        "p95": 60,
+        "max": 91
+      }
+    }
+  },
+  "assistant_token_statistics": "not measured; no tokenizer/model loaded"
+}

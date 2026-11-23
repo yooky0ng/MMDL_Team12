@@ -1,0 +1,23 @@
+{
+  "32_sample_resume_passed": true,
+  "samples": 32,
+  "sources": {
+    "point_cot": 26,
+    "mmvu": 6
+  },
+  "updates": 2,
+  "all_assistant_tokens_accounted_for": true,
+  "lora_tensors_changed_after_nonzero_lr_update": 288,
+  "lora_B_tensors_changed": 144,
+  "elapsed_training_seconds": 218.7486160560511,
+  "projected_10k_hours": 18.988595143754438,
+  "peak_allocated_mib": 11908.62109375,
+  "peak_reserved_mib": 16830.0,
+  "main_10k_started": false,
+  "resume_vs_uninterrupted_max_abs_difference": 0.0,
+  "resume_vs_uninterrupted_bitwise_equal": true,
+  "uninterrupted_training_seconds": 215.82795967999846,
+  "uninterrupted_projected_10k_hours": 18.73506594444431,
+  "reference_peak_allocated_mib": 11907.36279296875,
+  "reference_peak_reserved_mib": 16686.0
+}
