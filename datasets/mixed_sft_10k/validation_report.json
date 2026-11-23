@@ -1,0 +1,60 @@
+{
+  "status": "passed_subset_checks",
+  "total": 10000,
+  "missing_selected_images": 0,
+  "duplicate_selected_content": 0,
+  "selected_rows_identical_to_input": true,
+  "reproducible_selection": true,
+  "input_unchanged": true,
+  "target_field": "qwen3vl.conversations[1].value",
+  "legacy_answer_field_warning": "Top-level answer is NOT the full SFT target; retained unchanged.",
+  "point_cot_think_answer_structure_valid": true,
+  "mmvu_answer_structure_valid": true,
+  "mmvu_grouping": "Same original_id and image, two distinct records; POS/NEG relation NOT verified.",
+  "mmvu_scope": "Only first QA already present in 30K; no reconstruction of full original conversations.",
+  "image_hash_method": "SHA256 file bytes; detects identical files, not re-encoded visual duplicates.",
+  "evaluation_leakage_check": "not performed in this subset extraction; no leakage-free claim",
+  "processor_token_length_and_masking_validation": "not performed; required before training",
+  "excluded_candidates": [
+    {
+      "group_id": "mmvu_pair_00682",
+      "ids": [
+        "mmvu_00682_0",
+        "mmvu_00682_1"
+      ],
+      "reason": "duplicate_image_content_question_target"
+    },
+    {
+      "group_id": "mmvu_pair_01106",
+      "ids": [
+        "mmvu_01106_0",
+        "mmvu_01106_1"
+      ],
+      "reason": "duplicate_image_content_question_target"
+    },
+    {
+      "group_id": "mmvu_pair_01129",
+      "ids": [
+        "mmvu_01129_0",
+        "mmvu_01129_1"
+      ],
+      "reason": "duplicate_image_content_question_target"
+    },
+    {
+      "group_id": "mmvu_pair_00499",
+      "ids": [
+        "mmvu_00499_0",
+        "mmvu_00499_1"
+      ],
+      "reason": "duplicate_image_content_question_target"
+    },
+    {
+      "group_id": "mmvu_pair_00982",
+      "ids": [
+        "mmvu_00982_0",
+        "mmvu_00982_1"
+      ],
+      "reason": "duplicate_image_content_question_target"
+    }
+  ]
+}

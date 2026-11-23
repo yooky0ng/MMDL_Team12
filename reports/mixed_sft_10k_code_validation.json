@@ -1,0 +1,60 @@
+{
+  "cpu_tests_exit_code": 0,
+  "cpu_test_log": "reports/mixed_sft_10k_cpu_tests.log",
+  "dry_run_exit_code": 0,
+  "dry_run_config": {
+    "algorithm_version": 2,
+    "dataset": "/home/hyk/mmdl_point_cot/MMDL_Team12/datasets/mixed_sft_10k/mixed_10k.json",
+    "dataset_sha256": "227918a054df400f6be871970d80d5a8676b1564bca88595ed023c42073e4df6",
+    "samples": 10000,
+    "source_counts": {
+      "point_cot": 8000,
+      "mmvu": 2000
+    },
+    "target_field": "qwen3vl.conversations[1].value",
+    "point_image_root": "/home/hyk/mmdl_point_cot/MMDL_Team12/datasets/point_cot/source_images",
+    "mmvu_image_root": "/home/hyk/mmvu_48k_images",
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "seed": 42,
+    "batch_size": 1,
+    "accumulation_steps": 16,
+    "num_workers": 4,
+    "max_length": 4096,
+    "epochs": 1,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.03,
+    "warmup_updates": 19,
+    "total_updates": 625,
+    "max_grad_norm": 1.0,
+    "r": 32,
+    "alpha": 64,
+    "dropout": 0.05,
+    "dtype": "bfloat16",
+    "gradient_checkpointing": true,
+    "deterministic_algorithms": true,
+    "cublas_workspace_config": ":4096:8",
+    "loss_reduction": "sum assistant token loss / total assistant tokens per accumulation window",
+    "save_steps": 250,
+    "save_total_limit": 3,
+    "versions": {
+      "torch": "2.9.1",
+      "transformers": "4.57.6",
+      "peft": "0.21.3",
+      "accelerate": "1.16.0",
+      "numpy": "2.2.6"
+    },
+    "code_sha256": {
+      "train_mixed_lora_sft.py": "b0f29cfce3ff06d887c54a9c5628e22e4cff2de603dc34d2fafd270e37acb6d8",
+      "mixed_sft_inputs.py": "f7f1ecc320142bf5224e6f9b96c44d3f71498594a1e68f045227692a3f8b9cbb",
+      "mixed_sft_training.py": "8e647fd97bd4d3f46f5fb0b9a7b8789e95bd5e3c64df4630e72af4f3519dbeba"
+    }
+  },
+  "cuda_visible_devices": "",
+  "real_qwen_gpu_training_executed": true,
+  "real_qwen_checkpoint_resume_tested": true,
+  "new_training_output_created": false,
+  "scope": "CPU tests rerun after deterministic-mode integration; GPU integration report stored separately",
+  "gpu_validation_report": "reports/mixed_sft_10k_gpu_readiness.json"
+}

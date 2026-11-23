@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "point_cot_total": 70896,
+  "point_cot_source_distribution": {
+    "PlotQA": 13815,
+    "DVQA": 25249,
+    "ChartQA": 29533,
+    "TallyQA": 931,
+    "CLEVR": 1322,
+    "unclassified": 46
+  },
+  "point_cot_selected": {
+    "ChartQA": 9960,
+    "DVQA": 8520,
+    "PlotQA": 4752,
+    "CLEVR": 456,
+    "TallyQA": 312
+  },
+  "mmvu_input_records": 48000,
+  "mmvu_unlabeled_groups": 24004,
+  "mmvu_selected_pairs": 3000,
+  "mmvu_selected_samples": 6000,
+  "mixed_total": 30000,
+  "pair_labels": "unlabeled; source data has no positive/negative field"
+}
