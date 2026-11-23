@@ -1,0 +1,11 @@
+{
+  "point_cot_count": 24000,
+  "mmvu_count": 6000,
+  "mixed_count": 30000,
+  "missing_images": [],
+  "empty_text": [],
+  "duplicate_ids": [],
+  "pair_integrity": true,
+  "pair_labels_available": false,
+  "processor_validation": "schema/image validation only; model weights not loaded"
+}

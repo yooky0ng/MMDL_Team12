@@ -1,0 +1,6602 @@
+[
+  {
+    "id": "gqa_07134930",
+    "image_id": "2364168",
+    "question": "What color do you think is that helmet?",
+    "answer": "white",
+    "object": "helmet",
+    "attribute": "color",
+    "box": [
+      263,
+      66,
+      39,
+      28
+    ],
+    "point": [
+      56.5,
+      23.9
+    ],
+    "image_size": [
+      500,
+      335
+    ]
+  },
+  {
+    "id": "gqa_195301",
+    "image_id": "2416651",
+    "question": "What's the ship made of?",
+    "answer": "wood",
+    "object": "ship",
+    "attribute": "material",
+    "box": [
+      107,
+      96,
+      187,
+      118
+    ],
+    "point": [
+      40.1,
+      46.5
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_1460045",
+    "image_id": "2345137",
+    "question": "What is the floor made of?",
+    "answer": "concrete",
+    "object": "floor",
+    "attribute": "material",
+    "box": [
+      0,
+      238,
+      450,
+      134
+    ],
+    "point": [
+      45.0,
+      81.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_06328102",
+    "image_id": "2367414",
+    "question": "What color is the shelf the video games are stacked on?",
+    "answer": "black",
+    "object": "shelf",
+    "attribute": "color",
+    "box": [
+      264,
+      274,
+      111,
+      51
+    ],
+    "point": [
+      85.2,
+      59.9
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_1721106",
+    "image_id": "2356346",
+    "question": "The shirt is of what color?",
+    "answer": "blue",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      176,
+      113,
+      35,
+      51
+    ],
+    "point": [
+      58.1,
+      27.7
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_111020249",
+    "image_id": "2412285",
+    "question": "Which color is the jacket the woman wears?",
+    "answer": "brown",
+    "object": "jacket",
+    "attribute": "color",
+    "box": [
+      110,
+      205,
+      222,
+      295
+    ],
+    "point": [
+      66.4,
+      70.5
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_18371442",
+    "image_id": "2344629",
+    "question": "What color is the sky the clouds are in?",
+    "answer": "blue",
+    "object": "sky",
+    "attribute": "color",
+    "box": [
+      0,
+      0,
+      499,
+      105
+    ],
+    "point": [
+      49.9,
+      14.0
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_15260383",
+    "image_id": "2374663",
+    "question": "What color is the shirt?",
+    "answer": "red",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      198,
+      148,
+      23,
+      21
+    ],
+    "point": [
+      41.9,
+      49.5
+    ],
+    "image_size": [
+      500,
+      320
+    ]
+  },
+  {
+    "id": "gqa_12330642",
+    "image_id": "2412957",
+    "question": "The grass is of what color?",
+    "answer": "brown",
+    "object": "grass",
+    "attribute": "color",
+    "box": [
+      2,
+      207,
+      496,
+      165
+    ],
+    "point": [
+      50.0,
+      77.4
+    ],
+    "image_size": [
+      500,
+      374
+    ]
+  },
+  {
+    "id": "gqa_17995703",
+    "image_id": "2374773",
+    "question": "What color do the fruits the kid is holding have?",
+    "answer": "green",
+    "object": "bananas",
+    "attribute": "color",
+    "box": [
+      260,
+      252,
+      91,
+      81
+    ],
+    "point": [
+      61.1,
+      87.8
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_00101013",
+    "image_id": "2356111",
+    "question": "What color does the keyboard to the left of the man have?",
+    "answer": "green",
+    "object": "keyboard",
+    "attribute": "color",
+    "box": [
+      64,
+      236,
+      199,
+      139
+    ],
+    "point": [
+      32.7,
+      81.5
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_05905157",
+    "image_id": "2355201",
+    "question": "What color are the grapes that are on the paper?",
+    "answer": "green",
+    "object": "grapes",
+    "attribute": "color",
+    "box": [
+      328,
+      80,
+      39,
+      26
+    ],
+    "point": [
+      69.5,
+      24.8
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_19277490",
+    "image_id": "2394132",
+    "question": "Which color is the life jacket to the right of the helmet?",
+    "answer": "white",
+    "object": "life jacket",
+    "attribute": "color",
+    "box": [
+      282,
+      147,
+      38,
+      36
+    ],
+    "point": [
+      60.2,
+      44.0
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_08751249",
+    "image_id": "2374082",
+    "question": "Which color is the bike that the man is on?",
+    "answer": "silver",
+    "object": "bike",
+    "attribute": "color",
+    "box": [
+      221,
+      135,
+      181,
+      117
+    ],
+    "point": [
+      62.3,
+      58.3
+    ],
+    "image_size": [
+      500,
+      332
+    ]
+  },
+  {
+    "id": "gqa_10337319",
+    "image_id": "2344198",
+    "question": "The bed cover that is to the right of the bag is of what color?",
+    "answer": "white",
+    "object": "comforter",
+    "attribute": "color",
+    "box": [
+      203,
+      330,
+      232,
+      43
+    ],
+    "point": [
+      63.8,
+      93.7
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_12562195",
+    "image_id": "150261",
+    "question": "Which color are the trousers?",
+    "answer": "black",
+    "object": "pants",
+    "attribute": "color",
+    "box": [
+      209,
+      329,
+      141,
+      158
+    ],
+    "point": [
+      27.3,
+      60.0
+    ],
+    "image_size": [
+      1024,
+      680
+    ]
+  },
+  {
+    "id": "gqa_05626119",
+    "image_id": "2315364",
+    "question": "What color is the jacket that the umpire is wearing?",
+    "answer": "white",
+    "object": "jacket",
+    "attribute": "color",
+    "box": [
+      213,
+      114,
+      84,
+      69
+    ],
+    "point": [
+      51.0,
+      52.8
+    ],
+    "image_size": [
+      500,
+      281
+    ]
+  },
+  {
+    "id": "gqa_09418576",
+    "image_id": "2315786",
+    "question": "What is the color of the bikini the woman is wearing?",
+    "answer": "light blue",
+    "object": "bikini",
+    "attribute": "color",
+    "box": [
+      95,
+      204,
+      32,
+      20
+    ],
+    "point": [
+      28.1,
+      42.8
+    ],
+    "image_size": [
+      395,
+      500
+    ]
+  },
+  {
+    "id": "gqa_16134565",
+    "image_id": "2398101",
+    "question": "What color is the shirt?",
+    "answer": "purple",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      56,
+      279,
+      312,
+      219
+    ],
+    "point": [
+      56.5,
+      77.7
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_01180057",
+    "image_id": "2401026",
+    "question": "What color do the tiles have?",
+    "answer": "white",
+    "object": "tiles",
+    "attribute": "color",
+    "box": [
+      171,
+      379,
+      93,
+      25
+    ],
+    "point": [
+      43.5,
+      78.3
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_00118854",
+    "image_id": "2319533",
+    "question": "What color does the grass which is beneath the zebra have?",
+    "answer": "green",
+    "object": "grass",
+    "attribute": "color",
+    "box": [
+      2,
+      65,
+      497,
+      264
+    ],
+    "point": [
+      50.1,
+      59.2
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_06986076",
+    "image_id": "2348886",
+    "question": "What color is the cabinet?",
+    "answer": "brown",
+    "object": "cabinet",
+    "attribute": "color",
+    "box": [
+      0,
+      374,
+      71,
+      126
+    ],
+    "point": [
+      12.6,
+      87.4
+    ],
+    "image_size": [
+      281,
+      500
+    ]
+  },
+  {
+    "id": "gqa_06404162",
+    "image_id": "2327688",
+    "question": "What color is this car?",
+    "answer": "yellow",
+    "object": "car",
+    "attribute": "color",
+    "box": [
+      0,
+      42,
+      258,
+      249
+    ],
+    "point": [
+      25.8,
+      45.0
+    ],
+    "image_size": [
+      500,
+      370
+    ]
+  },
+  {
+    "id": "gqa_15950220",
+    "image_id": "2317017",
+    "question": "The napkin is which color?",
+    "answer": "brown",
+    "object": "napkin",
+    "attribute": "color",
+    "box": [
+      0,
+      218,
+      58,
+      120
+    ],
+    "point": [
+      5.8,
+      74.1
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_12908620",
+    "image_id": "2350553",
+    "question": "What color is the tray to the left of the apples?",
+    "answer": "purple",
+    "object": "tray",
+    "attribute": "color",
+    "box": [
+      194,
+      269,
+      132,
+      27
+    ],
+    "point": [
+      52.0,
+      84.8
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_08162854",
+    "image_id": "2357433",
+    "question": "What is the color of the necktie that is hanging from the guy?",
+    "answer": "red",
+    "object": "tie",
+    "attribute": "color",
+    "box": [
+      208,
+      267,
+      57,
+      218
+    ],
+    "point": [
+      63.1,
+      75.2
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_15722374",
+    "image_id": "2366340",
+    "question": "What color is the scarf?",
+    "answer": "red",
+    "object": "scarf",
+    "attribute": "color",
+    "box": [
+      292,
+      60,
+      49,
+      65
+    ],
+    "point": [
+      63.3,
+      24.7
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_19663455",
+    "image_id": "2410887",
+    "question": "Which color is the shirt that the girl is wearing?",
+    "answer": "black",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      92,
+      176,
+      241,
+      171
+    ],
+    "point": [
+      56.7,
+      52.3
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_04422959",
+    "image_id": "2358050",
+    "question": "What do you think is the color of the leaves that are on the tree?",
+    "answer": "brown",
+    "object": "leaves",
+    "attribute": "color",
+    "box": [
+      331,
+      0,
+      46,
+      51
+    ],
+    "point": [
+      70.8,
+      6.8
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_121001149",
+    "image_id": "2401345",
+    "question": "Which color is the tire?",
+    "answer": "gray",
+    "object": "tire",
+    "attribute": "color",
+    "box": [
+      330,
+      0,
+      31,
+      23
+    ],
+    "point": [
+      92.1,
+      2.3
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_03272005",
+    "image_id": "2318443",
+    "question": "What is the cup made of?",
+    "answer": "glass",
+    "object": "cup",
+    "attribute": "material",
+    "box": [
+      247,
+      227,
+      88,
+      93
+    ],
+    "point": [
+      58.2,
+      83.1
+    ],
+    "image_size": [
+      500,
+      329
+    ]
+  },
+  {
+    "id": "gqa_01714725",
+    "image_id": "2376853",
+    "question": "What color is the sky?",
+    "answer": "blue",
+    "object": "sky",
+    "attribute": "color",
+    "box": [
+      27,
+      1,
+      471,
+      278
+    ],
+    "point": [
+      52.5,
+      42.0
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_06874708",
+    "image_id": "4465",
+    "question": "How big is the desk that is above the basket?",
+    "answer": "large",
+    "object": "desk",
+    "attribute": "size",
+    "box": [
+      44,
+      224,
+      327,
+      136
+    ],
+    "point": [
+      34.6,
+      73.0
+    ],
+    "image_size": [
+      600,
+      400
+    ]
+  },
+  {
+    "id": "gqa_12183674",
+    "image_id": "2349901",
+    "question": "Of what color are the shorts?",
+    "answer": "white",
+    "object": "shorts",
+    "attribute": "color",
+    "box": [
+      214,
+      159,
+      57,
+      65
+    ],
+    "point": [
+      72.8,
+      38.3
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_03261829",
+    "image_id": "2409003",
+    "question": "Which color is the curtain?",
+    "answer": "black",
+    "object": "curtain",
+    "attribute": "color",
+    "box": [
+      7,
+      50,
+      130,
+      175
+    ],
+    "point": [
+      14.4,
+      41.3
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_12166718",
+    "image_id": "2389706",
+    "question": "How big is the kitchen?",
+    "answer": "large",
+    "object": "kitchen",
+    "attribute": "size",
+    "box": [
+      0,
+      5,
+      332,
+      490
+    ],
+    "point": [
+      49.8,
+      50.0
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_13759410",
+    "image_id": "3540",
+    "question": "What is the color of the jacket that the man is wearing?",
+    "answer": "gray",
+    "object": "jacket",
+    "attribute": "color",
+    "box": [
+      17,
+      129,
+      72,
+      100
+    ],
+    "point": [
+      11.3,
+      57.6
+    ],
+    "image_size": [
+      468,
+      311
+    ]
+  },
+  {
+    "id": "gqa_19100173",
+    "image_id": "1159326",
+    "question": "Which color is the cat to the right of the other cat?",
+    "answer": "black",
+    "object": "cat",
+    "attribute": "color",
+    "box": [
+      785,
+      232,
+      143,
+      268
+    ],
+    "point": [
+      83.6,
+      47.7
+    ],
+    "image_size": [
+      1024,
+      768
+    ]
+  },
+  {
+    "id": "gqa_06411630",
+    "image_id": "2382677",
+    "question": "How big is the lettuce?",
+    "answer": "large",
+    "object": "lettuce",
+    "attribute": "size",
+    "box": [
+      217,
+      138,
+      41,
+      26
+    ],
+    "point": [
+      47.5,
+      46.3
+    ],
+    "image_size": [
+      500,
+      326
+    ]
+  },
+  {
+    "id": "gqa_05154199",
+    "image_id": "2417754",
+    "question": "Which color is the hat?",
+    "answer": "gray",
+    "object": "hat",
+    "attribute": "color",
+    "box": [
+      219,
+      34,
+      40,
+      48
+    ],
+    "point": [
+      47.8,
+      11.6
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_04534567",
+    "image_id": "2322824",
+    "question": "What is the house made of?",
+    "answer": "brick",
+    "object": "house",
+    "attribute": "material",
+    "box": [
+      0,
+      61,
+      447,
+      275
+    ],
+    "point": [
+      44.7,
+      52.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_09653585",
+    "image_id": "2407819",
+    "question": "What is the floor made of?",
+    "answer": "brick",
+    "object": "floor",
+    "attribute": "material",
+    "box": [
+      178,
+      129,
+      321,
+      214
+    ],
+    "point": [
+      67.7,
+      68.6
+    ],
+    "image_size": [
+      500,
+      344
+    ]
+  },
+  {
+    "id": "gqa_07767266",
+    "image_id": "2396654",
+    "question": "Which kind of material is the glass made of?",
+    "answer": "plastic",
+    "object": "glass",
+    "attribute": "material",
+    "box": [
+      234,
+      17,
+      109,
+      66
+    ],
+    "point": [
+      57.7,
+      10.0
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_071043972",
+    "image_id": "2389928",
+    "question": "Which color is the rope to the right of the child?",
+    "answer": "black",
+    "object": "rope",
+    "attribute": "color",
+    "box": [
+      185,
+      246,
+      148,
+      55
+    ],
+    "point": [
+      77.8,
+      54.7
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_03993146",
+    "image_id": "2379687",
+    "question": "What do you think is the color of the chair?",
+    "answer": "red",
+    "object": "chair",
+    "attribute": "color",
+    "box": [
+      336,
+      186,
+      20,
+      145
+    ],
+    "point": [
+      96.9,
+      51.7
+    ],
+    "image_size": [
+      357,
+      500
+    ]
+  },
+  {
+    "id": "gqa_151012140",
+    "image_id": "2392026",
+    "question": "Which color do you think is the vehicle to the right of the umbrellas?",
+    "answer": "brown",
+    "object": "truck",
+    "attribute": "color",
+    "box": [
+      289,
+      223,
+      162,
+      82
+    ],
+    "point": [
+      74.0,
+      79.3
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_03164821",
+    "image_id": "2378697",
+    "question": "What color are the girl shoes?",
+    "answer": "pink",
+    "object": "shoes",
+    "attribute": "color",
+    "box": [
+      136,
+      430,
+      33,
+      38
+    ],
+    "point": [
+      46.1,
+      89.8
+    ],
+    "image_size": [
+      331,
+      500
+    ]
+  },
+  {
+    "id": "gqa_12431245",
+    "image_id": "2410376",
+    "question": "How large is the food with the spinach?",
+    "answer": "large",
+    "object": "pizza",
+    "attribute": "size",
+    "box": [
+      1,
+      1,
+      430,
+      200
+    ],
+    "point": [
+      43.2,
+      35.9
+    ],
+    "image_size": [
+      500,
+      281
+    ]
+  },
+  {
+    "id": "gqa_08327014",
+    "image_id": "2346754",
+    "question": "What color does the carpet have?",
+    "answer": "maroon",
+    "object": "carpet",
+    "attribute": "color",
+    "box": [
+      1,
+      0,
+      196,
+      148
+    ],
+    "point": [
+      19.8,
+      26.3
+    ],
+    "image_size": [
+      500,
+      281
+    ]
+  },
+  {
+    "id": "gqa_1130661",
+    "image_id": "2332702",
+    "question": "Which color are the forks?",
+    "answer": "silver",
+    "object": "forks",
+    "attribute": "color",
+    "box": [
+      178,
+      346,
+      67,
+      25
+    ],
+    "point": [
+      63.5,
+      71.7
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_1695469",
+    "image_id": "2360373",
+    "question": "What color do you think the can is?",
+    "answer": "silver",
+    "object": "can",
+    "attribute": "color",
+    "box": [
+      394,
+      39,
+      87,
+      154
+    ],
+    "point": [
+      87.5,
+      26.4
+    ],
+    "image_size": [
+      500,
+      439
+    ]
+  },
+  {
+    "id": "gqa_16613549",
+    "image_id": "2337555",
+    "question": "What is the cross made of?",
+    "answer": "concrete",
+    "object": "cross",
+    "attribute": "material",
+    "box": [
+      179,
+      33,
+      22,
+      32
+    ],
+    "point": [
+      50.7,
+      9.8
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_01587376",
+    "image_id": "2377064",
+    "question": "What is the color of that sky?",
+    "answer": "blue",
+    "object": "sky",
+    "attribute": "color",
+    "box": [
+      1,
+      0,
+      330,
+      388
+    ],
+    "point": [
+      49.8,
+      38.8
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_071040811",
+    "image_id": "2330823",
+    "question": "What color is the jacket the person is wearing?",
+    "answer": "black",
+    "object": "jacket",
+    "attribute": "color",
+    "box": [
+      37,
+      156,
+      33,
+      46
+    ],
+    "point": [
+      10.7,
+      53.9
+    ],
+    "image_size": [
+      500,
+      332
+    ]
+  },
+  {
+    "id": "gqa_11101426",
+    "image_id": "2409023",
+    "question": "How big is the vehicle that the fire truck is in front of?",
+    "answer": "large",
+    "object": "ambulance",
+    "attribute": "size",
+    "box": [
+      320,
+      144,
+      179,
+      168
+    ],
+    "point": [
+      81.9,
+      60.8
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_06612306",
+    "image_id": "2414969",
+    "question": "What color is that hair?",
+    "answer": "white",
+    "object": "hair",
+    "attribute": "color",
+    "box": [
+      319,
+      122,
+      33,
+      28
+    ],
+    "point": [
+      67.1,
+      36.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_07103400",
+    "image_id": "2363512",
+    "question": "Which color is the shirt?",
+    "answer": "pink",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      165,
+      234,
+      37,
+      72
+    ],
+    "point": [
+      36.7,
+      81.1
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_01661068",
+    "image_id": "2319731",
+    "question": "What color is the door?",
+    "answer": "white",
+    "object": "door",
+    "attribute": "color",
+    "box": [
+      2,
+      1,
+      154,
+      497
+    ],
+    "point": [
+      21.1,
+      49.9
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_14643047",
+    "image_id": "2378405",
+    "question": "What color is the ski the helmet is to the right of?",
+    "answer": "yellow",
+    "object": "ski",
+    "attribute": "color",
+    "box": [
+      9,
+      424,
+      59,
+      70
+    ],
+    "point": [
+      17.2,
+      91.8
+    ],
+    "image_size": [
+      224,
+      500
+    ]
+  },
+  {
+    "id": "gqa_13817055",
+    "image_id": "2401313",
+    "question": "What is the floor made of?",
+    "answer": "concrete",
+    "object": "floor",
+    "attribute": "material",
+    "box": [
+      43,
+      287,
+      116,
+      45
+    ],
+    "point": [
+      20.2,
+      92.9
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_13626499",
+    "image_id": "2413572",
+    "question": "What color are the letters?",
+    "answer": "gold",
+    "object": "letters",
+    "attribute": "color",
+    "box": [
+      196,
+      87,
+      247,
+      99
+    ],
+    "point": [
+      63.9,
+      36.4
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_14420495",
+    "image_id": "2339172",
+    "question": "Which color is the hair?",
+    "answer": "brown",
+    "object": "hair",
+    "attribute": "color",
+    "box": [
+      0,
+      0,
+      174,
+      175
+    ],
+    "point": [
+      17.4,
+      23.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_185733",
+    "image_id": "2358690",
+    "question": "What color are the clouds?",
+    "answer": "gray",
+    "object": "clouds",
+    "attribute": "color",
+    "box": [
+      225,
+      7,
+      50,
+      33
+    ],
+    "point": [
+      50.0,
+      6.2
+    ],
+    "image_size": [
+      500,
+      376
+    ]
+  },
+  {
+    "id": "gqa_15616803",
+    "image_id": "2342140",
+    "question": "What color is the tap?",
+    "answer": "silver",
+    "object": "faucet",
+    "attribute": "color",
+    "box": [
+      261,
+      275,
+      52,
+      25
+    ],
+    "point": [
+      76.5,
+      57.5
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_17339038",
+    "image_id": "2386321",
+    "question": "What color does the helmet they are wearing have?",
+    "answer": "blue",
+    "object": "helmet",
+    "attribute": "color",
+    "box": [
+      47,
+      196,
+      45,
+      41
+    ],
+    "point": [
+      13.9,
+      65.0
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_051058122",
+    "image_id": "2410293",
+    "question": "What color are the tiles on the street?",
+    "answer": "blue",
+    "object": "tiles",
+    "attribute": "color",
+    "box": [
+      367,
+      269,
+      26,
+      15
+    ],
+    "point": [
+      76.0,
+      83.0
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_19974067",
+    "image_id": "2358227",
+    "question": "What is the floor made of?",
+    "answer": "wood",
+    "object": "floor",
+    "attribute": "material",
+    "box": [
+      4,
+      3,
+      193,
+      139
+    ],
+    "point": [
+      20.1,
+      21.8
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_05252921",
+    "image_id": "2405489",
+    "question": "What is the color of the counter that the plate is on?",
+    "answer": "light blue",
+    "object": "counter",
+    "attribute": "color",
+    "box": [
+      14,
+      225,
+      484,
+      88
+    ],
+    "point": [
+      51.2,
+      84.6
+    ],
+    "image_size": [
+      500,
+      318
+    ]
+  },
+  {
+    "id": "gqa_16603802",
+    "image_id": "2387321",
+    "question": "What is the color of the cabinet?",
+    "answer": "brown",
+    "object": "cabinet",
+    "attribute": "color",
+    "box": [
+      91,
+      78,
+      408,
+      257
+    ],
+    "point": [
+      59.0,
+      61.1
+    ],
+    "image_size": [
+      500,
+      338
+    ]
+  },
+  {
+    "id": "gqa_07591735",
+    "image_id": "2396719",
+    "question": "What color are the pants?",
+    "answer": "tan",
+    "object": "pants",
+    "attribute": "color",
+    "box": [
+      166,
+      350,
+      51,
+      149
+    ],
+    "point": [
+      51.1,
+      84.9
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_091012744",
+    "image_id": "2359971",
+    "question": "What is the floor made of?",
+    "answer": "concrete",
+    "object": "floor",
+    "attribute": "material",
+    "box": [
+      1,
+      270,
+      498,
+      103
+    ],
+    "point": [
+      50.0,
+      86.0
+    ],
+    "image_size": [
+      500,
+      374
+    ]
+  },
+  {
+    "id": "gqa_0780790",
+    "image_id": "2364250",
+    "question": "What color is the device of the laptop computer?",
+    "answer": "blue",
+    "object": "screen",
+    "attribute": "color",
+    "box": [
+      91,
+      0,
+      360,
+      133
+    ],
+    "point": [
+      54.2,
+      17.7
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_09670114",
+    "image_id": "2353698",
+    "question": "What color does the shirt the man wears have?",
+    "answer": "blue",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      285,
+      125,
+      134,
+      84
+    ],
+    "point": [
+      70.4,
+      44.5
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_13120498",
+    "image_id": "2381399",
+    "question": "What's the window made of?",
+    "answer": "wood",
+    "object": "window",
+    "attribute": "material",
+    "box": [
+      3,
+      114,
+      48,
+      66
+    ],
+    "point": [
+      5.4,
+      44.1
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_19384014",
+    "image_id": "2335794",
+    "question": "Which shape is that table?",
+    "answer": "square",
+    "object": "table",
+    "attribute": "shape",
+    "box": [
+      123,
+      259,
+      324,
+      115
+    ],
+    "point": [
+      57.0,
+      84.4
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_04890210",
+    "image_id": "2405268",
+    "question": "What color does the arrow have?",
+    "answer": "red",
+    "object": "arrow",
+    "attribute": "color",
+    "box": [
+      152,
+      38,
+      53,
+      62
+    ],
+    "point": [
+      47.6,
+      13.8
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_0527279",
+    "image_id": "2413798",
+    "question": "What color is the vehicle by the motorbike?",
+    "answer": "red",
+    "object": "truck",
+    "attribute": "color",
+    "box": [
+      296,
+      18,
+      202,
+      137
+    ],
+    "point": [
+      79.4,
+      25.9
+    ],
+    "image_size": [
+      500,
+      334
+    ]
+  },
+  {
+    "id": "gqa_18323369",
+    "image_id": "2409255",
+    "question": "How big is that notebook?",
+    "answer": "small",
+    "object": "notebook",
+    "attribute": "size",
+    "box": [
+      239,
+      169,
+      121,
+      75
+    ],
+    "point": [
+      59.9,
+      60.6
+    ],
+    "image_size": [
+      500,
+      341
+    ]
+  },
+  {
+    "id": "gqa_18544245",
+    "image_id": "2395039",
+    "question": "What is the color of the shelf?",
+    "answer": "black",
+    "object": "shelf",
+    "attribute": "color",
+    "box": [
+      0,
+      0,
+      379,
+      332
+    ],
+    "point": [
+      37.9,
+      49.8
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_13477043",
+    "image_id": "2383586",
+    "question": "What color do you think is the water?",
+    "answer": "white",
+    "object": "water",
+    "attribute": "color",
+    "box": [
+      1,
+      0,
+      495,
+      327
+    ],
+    "point": [
+      49.7,
+      49.1
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_16497350",
+    "image_id": "2334117",
+    "question": "What is the color of the stroller?",
+    "answer": "blue",
+    "object": "stroller",
+    "attribute": "color",
+    "box": [
+      109,
+      149,
+      45,
+      86
+    ],
+    "point": [
+      26.3,
+      39.0
+    ],
+    "image_size": [
+      500,
+      492
+    ]
+  },
+  {
+    "id": "gqa_053013",
+    "image_id": "2396770",
+    "question": "Which color are the pants the player is wearing?",
+    "answer": "white",
+    "object": "pants",
+    "attribute": "color",
+    "box": [
+      179,
+      107,
+      37,
+      67
+    ],
+    "point": [
+      39.5,
+      42.2
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_01839201",
+    "image_id": "2348130",
+    "question": "How big is this house?",
+    "answer": "large",
+    "object": "house",
+    "attribute": "size",
+    "box": [
+      265,
+      114,
+      229,
+      162
+    ],
+    "point": [
+      75.9,
+      58.6
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_05886050",
+    "image_id": "2378887",
+    "question": "What color is the frisbee the man is holding?",
+    "answer": "blue",
+    "object": "frisbee",
+    "attribute": "color",
+    "box": [
+      176,
+      272,
+      34,
+      48
+    ],
+    "point": [
+      38.6,
+      78.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_12924755",
+    "image_id": "2315654",
+    "question": "What's the door made of?",
+    "answer": "glass",
+    "object": "door",
+    "attribute": "material",
+    "box": [
+      10,
+      184,
+      61,
+      285
+    ],
+    "point": [
+      10.8,
+      65.3
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_1510919",
+    "image_id": "2358344",
+    "question": "What color is the curtain behind the door?",
+    "answer": "red",
+    "object": "curtain",
+    "attribute": "color",
+    "box": [
+      128,
+      102,
+      42,
+      64
+    ],
+    "point": [
+      29.8,
+      35.7
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_09736271",
+    "image_id": "2377119",
+    "question": "Which color is the shirt?",
+    "answer": "pink",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      95,
+      107,
+      26,
+      25
+    ],
+    "point": [
+      21.6,
+      31.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_13277862",
+    "image_id": "2317359",
+    "question": "What is the color of the tail?",
+    "answer": "red",
+    "object": "tail",
+    "attribute": "color",
+    "box": [
+      1,
+      14,
+      73,
+      108
+    ],
+    "point": [
+      7.5,
+      20.4
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_06385293",
+    "image_id": "2383840",
+    "question": "What is the floor made of?",
+    "answer": "wood",
+    "object": "floor",
+    "attribute": "material",
+    "box": [
+      270,
+      0,
+      105,
+      122
+    ],
+    "point": [
+      86.0,
+      12.2
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_07629384",
+    "image_id": "2403773",
+    "question": "What is the color of the cat's eyes?",
+    "answer": "green",
+    "object": "eyes",
+    "attribute": "color",
+    "box": [
+      122,
+      90,
+      37,
+      29
+    ],
+    "point": [
+      40.1,
+      23.2
+    ],
+    "image_size": [
+      350,
+      450
+    ]
+  },
+  {
+    "id": "gqa_09158324",
+    "image_id": "3820",
+    "question": "What color is the sidewalk?",
+    "answer": "white",
+    "object": "sidewalk",
+    "attribute": "color",
+    "box": [
+      0,
+      466,
+      600,
+      183
+    ],
+    "point": [
+      50.0,
+      69.7
+    ],
+    "image_size": [
+      600,
+      800
+    ]
+  },
+  {
+    "id": "gqa_07309580",
+    "image_id": "2398209",
+    "question": "What is the bench made of?",
+    "answer": "concrete",
+    "object": "bench",
+    "attribute": "material",
+    "box": [
+      0,
+      215,
+      297,
+      285
+    ],
+    "point": [
+      44.6,
+      71.5
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_18146568",
+    "image_id": "2376940",
+    "question": "The hat has which color?",
+    "answer": "black",
+    "object": "hat",
+    "attribute": "color",
+    "box": [
+      218,
+      130,
+      54,
+      28
+    ],
+    "point": [
+      49.0,
+      43.2
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_05164718",
+    "image_id": "2396966",
+    "question": "The cross is of what color?",
+    "answer": "blue",
+    "object": "cross",
+    "attribute": "color",
+    "box": [
+      165,
+      208,
+      16,
+      29
+    ],
+    "point": [
+      46.8,
+      44.5
+    ],
+    "image_size": [
+      370,
+      500
+    ]
+  },
+  {
+    "id": "gqa_15972006",
+    "image_id": "1592554",
+    "question": "Which shape is the pillow?",
+    "answer": "square",
+    "object": "pillow",
+    "attribute": "shape",
+    "box": [
+      579,
+      684,
+      79,
+      134
+    ],
+    "point": [
+      91.0,
+      73.3
+    ],
+    "image_size": [
+      680,
+      1024
+    ]
+  },
+  {
+    "id": "gqa_17527349",
+    "image_id": "2390084",
+    "question": "Which color are the trousers?",
+    "answer": "blue",
+    "object": "pants",
+    "attribute": "color",
+    "box": [
+      249,
+      128,
+      67,
+      72
+    ],
+    "point": [
+      56.5,
+      49.2
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_19779714",
+    "image_id": "2406638",
+    "question": "What color is the sky?",
+    "answer": "dark",
+    "object": "sky",
+    "attribute": "color",
+    "box": [
+      0,
+      7,
+      463,
+      399
+    ],
+    "point": [
+      49.8,
+      41.3
+    ],
+    "image_size": [
+      465,
+      500
+    ]
+  },
+  {
+    "id": "gqa_04291861",
+    "image_id": "2320410",
+    "question": "Which color do the shorts the man wears have?",
+    "answer": "khaki",
+    "object": "shorts",
+    "attribute": "color",
+    "box": [
+      305,
+      236,
+      36,
+      41
+    ],
+    "point": [
+      88.7,
+      51.3
+    ],
+    "image_size": [
+      364,
+      500
+    ]
+  },
+  {
+    "id": "gqa_06567779",
+    "image_id": "2340739",
+    "question": "What color is the shirt?",
+    "answer": "pink",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      376,
+      39,
+      61,
+      43
+    ],
+    "point": [
+      81.3,
+      18.2
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_021063157",
+    "image_id": "2322563",
+    "question": "What color is the table?",
+    "answer": "green",
+    "object": "table",
+    "attribute": "color",
+    "box": [
+      312,
+      230,
+      158,
+      101
+    ],
+    "point": [
+      78.2,
+      74.8
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_07730079",
+    "image_id": "2393776",
+    "question": "How large is the bookshelf?",
+    "answer": "small",
+    "object": "bookshelf",
+    "attribute": "size",
+    "box": [
+      315,
+      75,
+      42,
+      69
+    ],
+    "point": [
+      67.2,
+      29.2
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_19721687",
+    "image_id": "2383687",
+    "question": "Which shape does the pillow on the chair have?",
+    "answer": "rectangular",
+    "object": "pillow",
+    "attribute": "shape",
+    "box": [
+      251,
+      179,
+      56,
+      31
+    ],
+    "point": [
+      55.8,
+      51.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_05377389",
+    "image_id": "2394357",
+    "question": "Of what color is the hair that the woman is with?",
+    "answer": "brown",
+    "object": "hair",
+    "attribute": "color",
+    "box": [
+      64,
+      2,
+      52,
+      46
+    ],
+    "point": [
+      27.0,
+      5.0
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_06641486",
+    "image_id": "2381424",
+    "question": "Of which color is the basket?",
+    "answer": "tan",
+    "object": "basket",
+    "attribute": "color",
+    "box": [
+      439,
+      152,
+      61,
+      65
+    ],
+    "point": [
+      93.9,
+      55.6
+    ],
+    "image_size": [
+      500,
+      332
+    ]
+  },
+  {
+    "id": "gqa_16924319",
+    "image_id": "2360147",
+    "question": "What color is the scarf?",
+    "answer": "white",
+    "object": "scarf",
+    "attribute": "color",
+    "box": [
+      154,
+      196,
+      124,
+      168
+    ],
+    "point": [
+      64.9,
+      56.0
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_04659640",
+    "image_id": "2330920",
+    "question": "What is the fence made of?",
+    "answer": "wood",
+    "object": "fence",
+    "attribute": "material",
+    "box": [
+      0,
+      247,
+      499,
+      40
+    ],
+    "point": [
+      49.9,
+      79.7
+    ],
+    "image_size": [
+      500,
+      335
+    ]
+  },
+  {
+    "id": "gqa_11932572",
+    "image_id": "2388981",
+    "question": "What are the bar stools to the right of the other bar stools made of?",
+    "answer": "metal",
+    "object": "bar stools",
+    "attribute": "material",
+    "box": [
+      152,
+      306,
+      70,
+      68
+    ],
+    "point": [
+      37.4,
+      90.7
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_1482567",
+    "image_id": "2387233",
+    "question": "What is the station made of?",
+    "answer": "wood",
+    "object": "station",
+    "attribute": "material",
+    "box": [
+      0,
+      64,
+      499,
+      309
+    ],
+    "point": [
+      49.9,
+      58.4
+    ],
+    "image_size": [
+      500,
+      374
+    ]
+  },
+  {
+    "id": "gqa_1038001",
+    "image_id": "2348272",
+    "question": "Which color is the shirt?",
+    "answer": "pink",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      347,
+      114,
+      150,
+      158
+    ],
+    "point": [
+      84.4,
+      51.5
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_01623299",
+    "image_id": "2391610",
+    "question": "What color is the bus to the right of the flags?",
+    "answer": "white",
+    "object": "bus",
+    "attribute": "color",
+    "box": [
+      246,
+      109,
+      87,
+      73
+    ],
+    "point": [
+      57.9,
+      37.6
+    ],
+    "image_size": [
+      500,
+      387
+    ]
+  },
+  {
+    "id": "gqa_17647155",
+    "image_id": "2374386",
+    "question": "Which color is the shirt the person wears?",
+    "answer": "pink",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      160,
+      380,
+      83,
+      109
+    ],
+    "point": [
+      60.9,
+      86.9
+    ],
+    "image_size": [
+      331,
+      500
+    ]
+  },
+  {
+    "id": "gqa_08604589",
+    "image_id": "2352346",
+    "question": "What is the color of the door?",
+    "answer": "green",
+    "object": "door",
+    "attribute": "color",
+    "box": [
+      325,
+      215,
+      35,
+      65
+    ],
+    "point": [
+      68.5,
+      72.4
+    ],
+    "image_size": [
+      500,
+      342
+    ]
+  },
+  {
+    "id": "gqa_05839035",
+    "image_id": "2352556",
+    "question": "What color are the leaves on the tree?",
+    "answer": "orange",
+    "object": "leaves",
+    "attribute": "color",
+    "box": [
+      12,
+      0,
+      363,
+      179
+    ],
+    "point": [
+      38.7,
+      23.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_1010707",
+    "image_id": "2414779",
+    "question": "The fire hydrant has what color?",
+    "answer": "blue",
+    "object": "fire hydrant",
+    "attribute": "color",
+    "box": [
+      20,
+      61,
+      181,
+      338
+    ],
+    "point": [
+      22.1,
+      57.5
+    ],
+    "image_size": [
+      500,
+      400
+    ]
+  },
+  {
+    "id": "gqa_0425821",
+    "image_id": "2408747",
+    "question": "What is the color of the car in front of the house?",
+    "answer": "gray",
+    "object": "car",
+    "attribute": "color",
+    "box": [
+      127,
+      172,
+      35,
+      24
+    ],
+    "point": [
+      28.9,
+      65.5
+    ],
+    "image_size": [
+      500,
+      281
+    ]
+  },
+  {
+    "id": "gqa_13668141",
+    "image_id": "2408936",
+    "question": "What color is the shirt the child wears?",
+    "answer": "white",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      222,
+      163,
+      49,
+      49
+    ],
+    "point": [
+      49.3,
+      50.0
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_0966941",
+    "image_id": "2409510",
+    "question": "What color is the jacket?",
+    "answer": "gray",
+    "object": "jacket",
+    "attribute": "color",
+    "box": [
+      117,
+      148,
+      254,
+      203
+    ],
+    "point": [
+      64.4,
+      49.9
+    ],
+    "image_size": [
+      379,
+      500
+    ]
+  },
+  {
+    "id": "gqa_01511506",
+    "image_id": "2350104",
+    "question": "Which color is the shirt the man is wearing?",
+    "answer": "white",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      185,
+      200,
+      20,
+      27
+    ],
+    "point": [
+      39.0,
+      56.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_05753175",
+    "image_id": "2401897",
+    "question": "What is the color of the lid?",
+    "answer": "blue",
+    "object": "lid",
+    "attribute": "color",
+    "box": [
+      266,
+      296,
+      32,
+      14
+    ],
+    "point": [
+      75.2,
+      60.6
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_07861927",
+    "image_id": "2380081",
+    "question": "The tail is what color?",
+    "answer": "blue",
+    "object": "tail",
+    "attribute": "color",
+    "box": [
+      362,
+      137,
+      121,
+      103
+    ],
+    "point": [
+      84.5,
+      52.8
+    ],
+    "image_size": [
+      500,
+      357
+    ]
+  },
+  {
+    "id": "gqa_08582569",
+    "image_id": "2367093",
+    "question": "The shirt the woman is wearing has which color?",
+    "answer": "black",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      176,
+      151,
+      150,
+      210
+    ],
+    "point": [
+      66.9,
+      51.2
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_10572414",
+    "image_id": "2338305",
+    "question": "What color is this giraffe?",
+    "answer": "brown",
+    "object": "giraffe",
+    "attribute": "color",
+    "box": [
+      61,
+      188,
+      98,
+      281
+    ],
+    "point": [
+      32.0,
+      65.7
+    ],
+    "image_size": [
+      344,
+      500
+    ]
+  },
+  {
+    "id": "gqa_05646523",
+    "image_id": "2360078",
+    "question": "What color is the curtain to the left of the telephone?",
+    "answer": "brown",
+    "object": "curtain",
+    "attribute": "color",
+    "box": [
+      112,
+      53,
+      27,
+      186
+    ],
+    "point": [
+      25.1,
+      38.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_05181864",
+    "image_id": "2365541",
+    "question": "The tee shirt has which color?",
+    "answer": "white",
+    "object": "t-shirt",
+    "attribute": "color",
+    "box": [
+      386,
+      95,
+      92,
+      105
+    ],
+    "point": [
+      86.4,
+      44.3
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_12578260",
+    "image_id": "2378726",
+    "question": "What is the color of the cat's fur?",
+    "answer": "orange",
+    "object": "fur",
+    "attribute": "color",
+    "box": [
+      122,
+      88,
+      335,
+      200
+    ],
+    "point": [
+      57.9,
+      56.5
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_07564964",
+    "image_id": "2351243",
+    "question": "What is the color of the snow the man is on?",
+    "answer": "black",
+    "object": "snow",
+    "attribute": "color",
+    "box": [
+      1,
+      29,
+      498,
+      344
+    ],
+    "point": [
+      50.0,
+      53.6
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_17884470",
+    "image_id": "2327424",
+    "question": "The bag has what color?",
+    "answer": "purple",
+    "object": "bag",
+    "attribute": "color",
+    "box": [
+      334,
+      237,
+      36,
+      44
+    ],
+    "point": [
+      70.4,
+      92.2
+    ],
+    "image_size": [
+      500,
+      281
+    ]
+  },
+  {
+    "id": "gqa_08813086",
+    "image_id": "2353914",
+    "question": "Which color is the bag the man is holding?",
+    "answer": "blue",
+    "object": "bag",
+    "attribute": "color",
+    "box": [
+      184,
+      186,
+      28,
+      21
+    ],
+    "point": [
+      39.6,
+      50.4
+    ],
+    "image_size": [
+      500,
+      390
+    ]
+  },
+  {
+    "id": "gqa_12574401",
+    "image_id": "2414793",
+    "question": "What is the color of the shampoo?",
+    "answer": "green",
+    "object": "shampoo",
+    "attribute": "color",
+    "box": [
+      137,
+      71,
+      16,
+      22
+    ],
+    "point": [
+      29.0,
+      39.2
+    ],
+    "image_size": [
+      500,
+      209
+    ]
+  },
+  {
+    "id": "gqa_07281182",
+    "image_id": "2340626",
+    "question": "How large is the duck that is followed by the other duck?",
+    "answer": "little",
+    "object": "duck",
+    "attribute": "size",
+    "box": [
+      262,
+      218,
+      38,
+      52
+    ],
+    "point": [
+      56.2,
+      48.8
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_15132516",
+    "image_id": "2324590",
+    "question": "What color does the sauce have?",
+    "answer": "red",
+    "object": "sauce",
+    "attribute": "color",
+    "box": [
+      40,
+      86,
+      193,
+      65
+    ],
+    "point": [
+      27.3,
+      35.6
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_1190877",
+    "image_id": "2356757",
+    "question": "What color do you think the hair is?",
+    "answer": "gray",
+    "object": "hair",
+    "attribute": "color",
+    "box": [
+      307,
+      0,
+      102,
+      95
+    ],
+    "point": [
+      71.6,
+      14.3
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_17201975",
+    "image_id": "2337529",
+    "question": "What color is the liquid?",
+    "answer": "dark",
+    "object": "liquid",
+    "attribute": "color",
+    "box": [
+      127,
+      38,
+      145,
+      107
+    ],
+    "point": [
+      53.2,
+      18.3
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_14777148",
+    "image_id": "2325472",
+    "question": "What color is the broccoli to the left of the meat?",
+    "answer": "green",
+    "object": "broccoli",
+    "attribute": "color",
+    "box": [
+      54,
+      245,
+      79,
+      64
+    ],
+    "point": [
+      18.7,
+      73.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_19269953",
+    "image_id": "2318539",
+    "question": "Which color does the shoe have?",
+    "answer": "black",
+    "object": "shoe",
+    "attribute": "color",
+    "box": [
+      188,
+      298,
+      60,
+      33
+    ],
+    "point": [
+      43.6,
+      94.4
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_05176511",
+    "image_id": "2369643",
+    "question": "What color is the shirt that the logo is printed on?",
+    "answer": "blue",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      259,
+      1,
+      84,
+      86
+    ],
+    "point": [
+      60.2,
+      13.2
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_02296976",
+    "image_id": "2408695",
+    "question": "What is the fence made of?",
+    "answer": "metal",
+    "object": "fence",
+    "attribute": "material",
+    "box": [
+      0,
+      138,
+      500,
+      195
+    ],
+    "point": [
+      50.0,
+      70.7
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_16598161",
+    "image_id": "2358102",
+    "question": "What color is the man's hair?",
+    "answer": "dark",
+    "object": "hair",
+    "attribute": "color",
+    "box": [
+      298,
+      59,
+      63,
+      42
+    ],
+    "point": [
+      65.9,
+      17.4
+    ],
+    "image_size": [
+      500,
+      459
+    ]
+  },
+  {
+    "id": "gqa_07809460",
+    "image_id": "2387010",
+    "question": "What color is the shirt the woman is wearing?",
+    "answer": "blue",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      47,
+      160,
+      116,
+      97
+    ],
+    "point": [
+      21.0,
+      55.6
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_01874161",
+    "image_id": "2409966",
+    "question": "What color does the vehicle behind the bus have?",
+    "answer": "white",
+    "object": "vehicle",
+    "attribute": "color",
+    "box": [
+      335,
+      196,
+      37,
+      38
+    ],
+    "point": [
+      70.7,
+      69.6
+    ],
+    "image_size": [
+      500,
+      309
+    ]
+  },
+  {
+    "id": "gqa_16470087",
+    "image_id": "4792",
+    "question": "What color is the dish the spoon is on?",
+    "answer": "green",
+    "object": "dish",
+    "attribute": "color",
+    "box": [
+      358,
+      175,
+      66,
+      39
+    ],
+    "point": [
+      78.2,
+      51.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_16871448",
+    "image_id": "2336090",
+    "question": "What is the color of the device that the cat is on?",
+    "answer": "black",
+    "object": "laptop",
+    "attribute": "color",
+    "box": [
+      181,
+      105,
+      193,
+      234
+    ],
+    "point": [
+      55.5,
+      59.2
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_05574871",
+    "image_id": "2415235",
+    "question": "Which color do the shorts have?",
+    "answer": "blue",
+    "object": "shorts",
+    "attribute": "color",
+    "box": [
+      186,
+      201,
+      43,
+      42
+    ],
+    "point": [
+      41.5,
+      66.5
+    ],
+    "image_size": [
+      500,
+      334
+    ]
+  },
+  {
+    "id": "gqa_06984749",
+    "image_id": "2317864",
+    "question": "What size is the bird that is on the boat?",
+    "answer": "large",
+    "object": "bird",
+    "attribute": "size",
+    "box": [
+      121,
+      189,
+      37,
+      68
+    ],
+    "point": [
+      27.9,
+      62.1
+    ],
+    "image_size": [
+      500,
+      359
+    ]
+  },
+  {
+    "id": "gqa_13291435",
+    "image_id": "2339741",
+    "question": "Which color is the hat?",
+    "answer": "red",
+    "object": "hat",
+    "attribute": "color",
+    "box": [
+      173,
+      11,
+      191,
+      96
+    ],
+    "point": [
+      53.7,
+      17.7
+    ],
+    "image_size": [
+      500,
+      334
+    ]
+  },
+  {
+    "id": "gqa_07582787",
+    "image_id": "2383543",
+    "question": "What color is the hat he is wearing?",
+    "answer": "black",
+    "object": "hat",
+    "attribute": "color",
+    "box": [
+      235,
+      47,
+      90,
+      97
+    ],
+    "point": [
+      56.0,
+      25.5
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_001017949",
+    "image_id": "2408027",
+    "question": "Which color is the uniform?",
+    "answer": "blue",
+    "object": "uniform",
+    "attribute": "color",
+    "box": [
+      195,
+      99,
+      50,
+      59
+    ],
+    "point": [
+      44.0,
+      38.6
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_071050609",
+    "image_id": "2377143",
+    "question": "What is the plate made of?",
+    "answer": "glass",
+    "object": "plate",
+    "attribute": "material",
+    "box": [
+      0,
+      0,
+      375,
+      499
+    ],
+    "point": [
+      50.0,
+      49.9
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_01463005",
+    "image_id": "2319070",
+    "question": "What color do you think the food with the cheese is?",
+    "answer": "teal",
+    "object": "pizza",
+    "attribute": "color",
+    "box": [
+      16,
+      37,
+      475,
+      240
+    ],
+    "point": [
+      50.7,
+      47.3
+    ],
+    "image_size": [
+      500,
+      332
+    ]
+  },
+  {
+    "id": "gqa_10629432",
+    "image_id": "2406648",
+    "question": "What color is the shirt the boy is wearing?",
+    "answer": "white",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      204,
+      129,
+      71,
+      57
+    ],
+    "point": [
+      47.9,
+      47.3
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_03286145",
+    "image_id": "1159906",
+    "question": "What are the benches made of?",
+    "answer": "metal",
+    "object": "benches",
+    "attribute": "material",
+    "box": [
+      447,
+      515,
+      349,
+      165
+    ],
+    "point": [
+      60.7,
+      87.7
+    ],
+    "image_size": [
+      1024,
+      681
+    ]
+  },
+  {
+    "id": "gqa_04665924",
+    "image_id": "2400541",
+    "question": "What color are the trousers?",
+    "answer": "black",
+    "object": "pants",
+    "attribute": "color",
+    "box": [
+      287,
+      139,
+      27,
+      52
+    ],
+    "point": [
+      60.1,
+      58.7
+    ],
+    "image_size": [
+      500,
+      281
+    ]
+  },
+  {
+    "id": "gqa_071017389",
+    "image_id": "2335013",
+    "question": "What is the color of the shirt the person is wearing?",
+    "answer": "yellow",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      67,
+      148,
+      39,
+      65
+    ],
+    "point": [
+      26.0,
+      36.1
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_18710723",
+    "image_id": "2413686",
+    "question": "What is this fence made of?",
+    "answer": "metal",
+    "object": "fence",
+    "attribute": "material",
+    "box": [
+      55,
+      150,
+      424,
+      139
+    ],
+    "point": [
+      53.4,
+      58.5
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_00430158",
+    "image_id": "2401856",
+    "question": "What color is the cow on the grass?",
+    "answer": "black",
+    "object": "cow",
+    "attribute": "color",
+    "box": [
+      321,
+      112,
+      179,
+      263
+    ],
+    "point": [
+      82.1,
+      64.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_001058782",
+    "image_id": "2380874",
+    "question": "Which color is the helmet?",
+    "answer": "green",
+    "object": "helmet",
+    "attribute": "color",
+    "box": [
+      304,
+      41,
+      63,
+      75
+    ],
+    "point": [
+      67.1,
+      23.6
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_12267605",
+    "image_id": "2371988",
+    "question": "What color is the tie?",
+    "answer": "black",
+    "object": "tie",
+    "attribute": "color",
+    "box": [
+      79,
+      153,
+      14,
+      22
+    ],
+    "point": [
+      26.9,
+      68.3
+    ],
+    "image_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "id": "gqa_13234927",
+    "image_id": "2393678",
+    "question": "What is the table made of?",
+    "answer": "wood",
+    "object": "table",
+    "attribute": "material",
+    "box": [
+      240,
+      115,
+      207,
+      93
+    ],
+    "point": [
+      68.7,
+      48.8
+    ],
+    "image_size": [
+      500,
+      331
+    ]
+  },
+  {
+    "id": "gqa_02296212",
+    "image_id": "2319479",
+    "question": "Which color are the gloves the man is with?",
+    "answer": "black",
+    "object": "gloves",
+    "attribute": "color",
+    "box": [
+      98,
+      183,
+      22,
+      57
+    ],
+    "point": [
+      21.8,
+      56.4
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_07221136",
+    "image_id": "2333208",
+    "question": "What color is the shirt?",
+    "answer": "dark",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      0,
+      1,
+      129,
+      125
+    ],
+    "point": [
+      19.4,
+      12.7
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_03854082",
+    "image_id": "2327127",
+    "question": "What color is the shirt?",
+    "answer": "gold",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      277,
+      62,
+      105,
+      63
+    ],
+    "point": [
+      65.9,
+      28.1
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_08533616",
+    "image_id": "2363651",
+    "question": "What is the color of the trousers?",
+    "answer": "brown",
+    "object": "pants",
+    "attribute": "color",
+    "box": [
+      271,
+      118,
+      38,
+      55
+    ],
+    "point": [
+      58.0,
+      46.9
+    ],
+    "image_size": [
+      500,
+      310
+    ]
+  },
+  {
+    "id": "gqa_17531410",
+    "image_id": "2349621",
+    "question": "What's the vase made of?",
+    "answer": "glass",
+    "object": "vase",
+    "attribute": "material",
+    "box": [
+      22,
+      188,
+      128,
+      229
+    ],
+    "point": [
+      23.0,
+      60.5
+    ],
+    "image_size": [
+      374,
+      500
+    ]
+  },
+  {
+    "id": "gqa_08171013",
+    "image_id": "2367992",
+    "question": "What is the tray made of?",
+    "answer": "wood",
+    "object": "tray",
+    "attribute": "material",
+    "box": [
+      44,
+      112,
+      411,
+      200
+    ],
+    "point": [
+      49.9,
+      56.5
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_17657134",
+    "image_id": "2399922",
+    "question": "What color does the shirt the man is wearing have?",
+    "answer": "white",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      54,
+      166,
+      70,
+      58
+    ],
+    "point": [
+      17.8,
+      74.7
+    ],
+    "image_size": [
+      500,
+      261
+    ]
+  },
+  {
+    "id": "gqa_1418206",
+    "image_id": "2334964",
+    "question": "What color is the coat he is wearing?",
+    "answer": "brown",
+    "object": "coat",
+    "attribute": "color",
+    "box": [
+      176,
+      80,
+      190,
+      251
+    ],
+    "point": [
+      54.2,
+      61.7
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_11169053",
+    "image_id": "2318495",
+    "question": "Which color is the table that is below the bananas?",
+    "answer": "red",
+    "object": "table",
+    "attribute": "color",
+    "box": [
+      221,
+      264,
+      275,
+      69
+    ],
+    "point": [
+      71.7,
+      89.6
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_14926653",
+    "image_id": "2407133",
+    "question": "What is the color of the table?",
+    "answer": "gray",
+    "object": "table",
+    "attribute": "color",
+    "box": [
+      0,
+      5,
+      497,
+      370
+    ],
+    "point": [
+      49.7,
+      50.7
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_0012972",
+    "image_id": "2413382",
+    "question": "What color is the cup?",
+    "answer": "white",
+    "object": "cup",
+    "attribute": "color",
+    "box": [
+      132,
+      0,
+      211,
+      147
+    ],
+    "point": [
+      55.4,
+      14.7
+    ],
+    "image_size": [
+      429,
+      500
+    ]
+  },
+  {
+    "id": "gqa_03803286",
+    "image_id": "2336619",
+    "question": "What is the color of the monitor to the right of the cat?",
+    "answer": "black",
+    "object": "monitor",
+    "attribute": "color",
+    "box": [
+      182,
+      29,
+      140,
+      132
+    ],
+    "point": [
+      50.4,
+      28.7
+    ],
+    "image_size": [
+      500,
+      331
+    ]
+  },
+  {
+    "id": "gqa_0460931",
+    "image_id": "713048",
+    "question": "What is the color of the hat?",
+    "answer": "orange",
+    "object": "hat",
+    "attribute": "color",
+    "box": [
+      0,
+      0,
+      210,
+      163
+    ],
+    "point": [
+      10.3,
+      10.6
+    ],
+    "image_size": [
+      1024,
+      772
+    ]
+  },
+  {
+    "id": "gqa_19799059",
+    "image_id": "2370185",
+    "question": "What is the color of the carriage in front of the trees?",
+    "answer": "black",
+    "object": "carriage",
+    "attribute": "color",
+    "box": [
+      91,
+      69,
+      160,
+      179
+    ],
+    "point": [
+      34.2,
+      42.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_03856662",
+    "image_id": "2375051",
+    "question": "What do you think is the color of the water?",
+    "answer": "orange",
+    "object": "water",
+    "attribute": "color",
+    "box": [
+      296,
+      255,
+      203,
+      75
+    ],
+    "point": [
+      79.5,
+      88.1
+    ],
+    "image_size": [
+      500,
+      332
+    ]
+  },
+  {
+    "id": "gqa_1715937",
+    "image_id": "2404555",
+    "question": "That floor has what color?",
+    "answer": "black",
+    "object": "floor",
+    "attribute": "color",
+    "box": [
+      1,
+      307,
+      107,
+      193
+    ],
+    "point": [
+      16.4,
+      80.7
+    ],
+    "image_size": [
+      332,
+      500
+    ]
+  },
+  {
+    "id": "gqa_18628926",
+    "image_id": "2356877",
+    "question": "What color is the bag to the right of the woman?",
+    "answer": "gray",
+    "object": "backpack",
+    "attribute": "color",
+    "box": [
+      235,
+      270,
+      41,
+      50
+    ],
+    "point": [
+      76.7,
+      59.0
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_03778805",
+    "image_id": "2377931",
+    "question": "What color are the shorts?",
+    "answer": "black",
+    "object": "shorts",
+    "attribute": "color",
+    "box": [
+      207,
+      191,
+      31,
+      28
+    ],
+    "point": [
+      44.5,
+      61.6
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_08292464",
+    "image_id": "2366906",
+    "question": "What color are the jeans?",
+    "answer": "green",
+    "object": "jeans",
+    "attribute": "color",
+    "box": [
+      276,
+      150,
+      41,
+      47
+    ],
+    "point": [
+      59.3,
+      46.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_18609941",
+    "image_id": "2319591",
+    "question": "What is the color of the device to the left of the ipod?",
+    "answer": "blue",
+    "object": "laptop",
+    "attribute": "color",
+    "box": [
+      171,
+      176,
+      150,
+      145
+    ],
+    "point": [
+      49.2,
+      66.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_11107258",
+    "image_id": "2339491",
+    "question": "What is the color of the animal that is to the left of the man?",
+    "answer": "brown",
+    "object": "cat",
+    "attribute": "color",
+    "box": [
+      103,
+      75,
+      153,
+      132
+    ],
+    "point": [
+      35.9,
+      50.2
+    ],
+    "image_size": [
+      500,
+      281
+    ]
+  },
+  {
+    "id": "gqa_0216281",
+    "image_id": "2395986",
+    "question": "What is the color of the bar stool to the right of the other bar stool?",
+    "answer": "brown",
+    "object": "bar stool",
+    "attribute": "color",
+    "box": [
+      447,
+      324,
+      52,
+      50
+    ],
+    "point": [
+      94.6,
+      93.1
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_05677234",
+    "image_id": "2343285",
+    "question": "The car that is parked on the ground is which color?",
+    "answer": "yellow",
+    "object": "car",
+    "attribute": "color",
+    "box": [
+      56,
+      54,
+      405,
+      285
+    ],
+    "point": [
+      51.7,
+      52.4
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_14398074",
+    "image_id": "3861",
+    "question": "What color is the plate on the table?",
+    "answer": "black",
+    "object": "plate",
+    "attribute": "color",
+    "box": [
+      216,
+      1,
+      128,
+      26
+    ],
+    "point": [
+      43.8,
+      2.9
+    ],
+    "image_size": [
+      640,
+      480
+    ]
+  },
+  {
+    "id": "gqa_05139503",
+    "image_id": "2350352",
+    "question": "What size does the cow on the grass have?",
+    "answer": "small",
+    "object": "cow",
+    "attribute": "size",
+    "box": [
+      18,
+      81,
+      133,
+      90
+    ],
+    "point": [
+      16.9,
+      64.3
+    ],
+    "image_size": [
+      500,
+      196
+    ]
+  },
+  {
+    "id": "gqa_18759812",
+    "image_id": "2354742",
+    "question": "What color does the bell to the right of the tomato have?",
+    "answer": "red",
+    "object": "bell",
+    "attribute": "color",
+    "box": [
+      205,
+      96,
+      38,
+      60
+    ],
+    "point": [
+      44.8,
+      25.2
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_17466084",
+    "image_id": "2320860",
+    "question": "What is the bed made of?",
+    "answer": "leather",
+    "object": "bed",
+    "attribute": "material",
+    "box": [
+      80,
+      72,
+      363,
+      230
+    ],
+    "point": [
+      52.3,
+      53.6
+    ],
+    "image_size": [
+      500,
+      349
+    ]
+  },
+  {
+    "id": "gqa_01260967",
+    "image_id": "2347231",
+    "question": "Which color is the necktie that the man is wearing?",
+    "answer": "white",
+    "object": "tie",
+    "attribute": "color",
+    "box": [
+      255,
+      126,
+      45,
+      110
+    ],
+    "point": [
+      55.5,
+      54.2
+    ],
+    "image_size": [
+      500,
+      334
+    ]
+  },
+  {
+    "id": "gqa_04710910",
+    "image_id": "2321991",
+    "question": "What color do the trousers have?",
+    "answer": "orange",
+    "object": "pants",
+    "attribute": "color",
+    "box": [
+      267,
+      375,
+      99,
+      120
+    ],
+    "point": [
+      84.4,
+      87.0
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_16585349",
+    "image_id": "2376898",
+    "question": "What is the color of the microwave near the cabinet?",
+    "answer": "white",
+    "object": "microwave",
+    "attribute": "color",
+    "box": [
+      177,
+      122,
+      58,
+      33
+    ],
+    "point": [
+      41.2,
+      36.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_10437280",
+    "image_id": "2403299",
+    "question": "What color is the traffic light?",
+    "answer": "green",
+    "object": "traffic light",
+    "attribute": "color",
+    "box": [
+      293,
+      254,
+      26,
+      36
+    ],
+    "point": [
+      61.2,
+      54.4
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_11935856",
+    "image_id": "2408768",
+    "question": "What color is the dress of the mannequin?",
+    "answer": "orange",
+    "object": "dress",
+    "attribute": "color",
+    "box": [
+      179,
+      109,
+      86,
+      225
+    ],
+    "point": [
+      44.4,
+      66.3
+    ],
+    "image_size": [
+      500,
+      334
+    ]
+  },
+  {
+    "id": "gqa_121010401",
+    "image_id": "2371002",
+    "question": "What's the floor made of?",
+    "answer": "concrete",
+    "object": "floor",
+    "attribute": "material",
+    "box": [
+      214,
+      408,
+      123,
+      90
+    ],
+    "point": [
+      73.5,
+      90.6
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_18572423",
+    "image_id": "2349835",
+    "question": "Which color is the shirt the people are wearing?",
+    "answer": "blue",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      97,
+      107,
+      42,
+      43
+    ],
+    "point": [
+      23.6,
+      34.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_11535654",
+    "image_id": "2354288",
+    "question": "What color are the trousers the man is wearing?",
+    "answer": "white",
+    "object": "pants",
+    "attribute": "color",
+    "box": [
+      64,
+      234,
+      230,
+      214
+    ],
+    "point": [
+      53.8,
+      68.2
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_021004217",
+    "image_id": "2337899",
+    "question": "The bridge is of which color?",
+    "answer": "blue",
+    "object": "bridge",
+    "attribute": "color",
+    "box": [
+      114,
+      60,
+      114,
+      58
+    ],
+    "point": [
+      34.2,
+      26.9
+    ],
+    "image_size": [
+      500,
+      331
+    ]
+  },
+  {
+    "id": "gqa_09327693",
+    "image_id": "2385295",
+    "question": "What is the staircase made of?",
+    "answer": "metal",
+    "object": "staircase",
+    "attribute": "material",
+    "box": [
+      223,
+      322,
+      27,
+      34
+    ],
+    "point": [
+      47.3,
+      67.8
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_02411204",
+    "image_id": "2354628",
+    "question": "What color does the shirt have?",
+    "answer": "green",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      245,
+      262,
+      117,
+      67
+    ],
+    "point": [
+      60.7,
+      88.7
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_17818022",
+    "image_id": "2351148",
+    "question": "What color do you think the frisbee has?",
+    "answer": "yellow",
+    "object": "frisbee",
+    "attribute": "color",
+    "box": [
+      109,
+      107,
+      101,
+      51
+    ],
+    "point": [
+      31.9,
+      26.5
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_12112550",
+    "image_id": "2404377",
+    "question": "The telephone to the left of the mobile phone is what color?",
+    "answer": "gray",
+    "object": "phone",
+    "attribute": "color",
+    "box": [
+      0,
+      83,
+      76,
+      243
+    ],
+    "point": [
+      7.6,
+      54.5
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_18104126",
+    "image_id": "2350526",
+    "question": "Which color are the tiles?",
+    "answer": "blue",
+    "object": "tiles",
+    "attribute": "color",
+    "box": [
+      184,
+      170,
+      22,
+      33
+    ],
+    "point": [
+      52.0,
+      37.3
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_13959780",
+    "image_id": "2408834",
+    "question": "What is the porch made of?",
+    "answer": "wood",
+    "object": "porch",
+    "attribute": "material",
+    "box": [
+      73,
+      322,
+      416,
+      46
+    ],
+    "point": [
+      56.2,
+      93.2
+    ],
+    "image_size": [
+      500,
+      370
+    ]
+  },
+  {
+    "id": "gqa_17453906",
+    "image_id": "2326036",
+    "question": "How large is the container of the other container?",
+    "answer": "small",
+    "object": "container",
+    "attribute": "size",
+    "box": [
+      0,
+      242,
+      38,
+      65
+    ],
+    "point": [
+      5.1,
+      54.9
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_001054308",
+    "image_id": "2401528",
+    "question": "Which color are the socks?",
+    "answer": "orange",
+    "object": "socks",
+    "attribute": "color",
+    "box": [
+      67,
+      247,
+      54,
+      48
+    ],
+    "point": [
+      18.8,
+      72.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_09677093",
+    "image_id": "2361041",
+    "question": "Which material is the door made of?",
+    "answer": "glass",
+    "object": "door",
+    "attribute": "material",
+    "box": [
+      126,
+      64,
+      44,
+      48
+    ],
+    "point": [
+      29.6,
+      30.8
+    ],
+    "image_size": [
+      500,
+      286
+    ]
+  },
+  {
+    "id": "gqa_10402476",
+    "image_id": "2335098",
+    "question": "How big is the fan?",
+    "answer": "large",
+    "object": "fan",
+    "attribute": "size",
+    "box": [
+      460,
+      43,
+      40,
+      71
+    ],
+    "point": [
+      96.0,
+      21.0
+    ],
+    "image_size": [
+      500,
+      374
+    ]
+  },
+  {
+    "id": "gqa_18279372",
+    "image_id": "2395033",
+    "question": "What is the color of the mirror?",
+    "answer": "blue",
+    "object": "mirror",
+    "attribute": "color",
+    "box": [
+      249,
+      125,
+      64,
+      97
+    ],
+    "point": [
+      56.2,
+      52.4
+    ],
+    "image_size": [
+      500,
+      331
+    ]
+  },
+  {
+    "id": "gqa_09600953",
+    "image_id": "2334177",
+    "question": "What do you think is the color of the fire place?",
+    "answer": "beige",
+    "object": "fireplace",
+    "attribute": "color",
+    "box": [
+      123,
+      98,
+      171,
+      148
+    ],
+    "point": [
+      41.7,
+      45.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_12429268",
+    "image_id": "2355165",
+    "question": "What color is the coat the man is wearing?",
+    "answer": "white",
+    "object": "coat",
+    "attribute": "color",
+    "box": [
+      175,
+      115,
+      97,
+      90
+    ],
+    "point": [
+      44.7,
+      45.5
+    ],
+    "image_size": [
+      500,
+      352
+    ]
+  },
+  {
+    "id": "gqa_07324663",
+    "image_id": "2326120",
+    "question": "What is the fence to the right of the balls made of?",
+    "answer": "metal",
+    "object": "fence",
+    "attribute": "material",
+    "box": [
+      14,
+      21,
+      484,
+      111
+    ],
+    "point": [
+      51.2,
+      20.4
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_03594003",
+    "image_id": "2336451",
+    "question": "What material was used to make the bat?",
+    "answer": "metal",
+    "object": "bat",
+    "attribute": "material",
+    "box": [
+      134,
+      98,
+      22,
+      42
+    ],
+    "point": [
+      29.0,
+      35.7
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_05606493",
+    "image_id": "2402496",
+    "question": "What is the color of the kite?",
+    "answer": "orange",
+    "object": "kite",
+    "attribute": "color",
+    "box": [
+      55,
+      5,
+      44,
+      87
+    ],
+    "point": [
+      15.4,
+      14.7
+    ],
+    "image_size": [
+      500,
+      330
+    ]
+  },
+  {
+    "id": "gqa_1248587",
+    "image_id": "2341202",
+    "question": "What material is the bottle on top of the snow?",
+    "answer": "plastic",
+    "object": "bottle",
+    "attribute": "material",
+    "box": [
+      275,
+      65,
+      44,
+      54
+    ],
+    "point": [
+      79.2,
+      18.4
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_11346714",
+    "image_id": "4506",
+    "question": "What color do you think the monitor is?",
+    "answer": "tan",
+    "object": "monitor",
+    "attribute": "color",
+    "box": [
+      108,
+      223,
+      24,
+      17
+    ],
+    "point": [
+      30.0,
+      86.4
+    ],
+    "image_size": [
+      400,
+      268
+    ]
+  },
+  {
+    "id": "gqa_06532486",
+    "image_id": "2404937",
+    "question": "What color does the plate that is to the right of the fork have?",
+    "answer": "brown",
+    "object": "plate",
+    "attribute": "color",
+    "box": [
+      93,
+      320,
+      371,
+      157
+    ],
+    "point": [
+      55.7,
+      79.7
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_04210604",
+    "image_id": "2368633",
+    "question": "Which color is that necklace?",
+    "answer": "black",
+    "object": "necklace",
+    "attribute": "color",
+    "box": [
+      226,
+      73,
+      55,
+      32
+    ],
+    "point": [
+      50.7,
+      26.7
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_03512725",
+    "image_id": "2405104",
+    "question": "What color is the shower curtain?",
+    "answer": "orange",
+    "object": "shower curtain",
+    "attribute": "color",
+    "box": [
+      197,
+      53,
+      35,
+      247
+    ],
+    "point": [
+      42.9,
+      45.7
+    ],
+    "image_size": [
+      500,
+      386
+    ]
+  },
+  {
+    "id": "gqa_13688639",
+    "image_id": "2368481",
+    "question": "Which color is the chair beside the other chair?",
+    "answer": "red",
+    "object": "chair",
+    "attribute": "color",
+    "box": [
+      455,
+      172,
+      22,
+      23
+    ],
+    "point": [
+      93.2,
+      55.1
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_171039424",
+    "image_id": "2376324",
+    "question": "What's the ground made of?",
+    "answer": "concrete",
+    "object": "ground",
+    "attribute": "material",
+    "box": [
+      2,
+      220,
+      493,
+      112
+    ],
+    "point": [
+      49.7,
+      82.9
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_0035873",
+    "image_id": "2388454",
+    "question": "Of what color is that mug?",
+    "answer": "blue",
+    "object": "mug",
+    "attribute": "color",
+    "box": [
+      187,
+      219,
+      41,
+      47
+    ],
+    "point": [
+      41.5,
+      72.8
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_16262865",
+    "image_id": "2336343",
+    "question": "What's the fence made of?",
+    "answer": "metal",
+    "object": "fence",
+    "attribute": "material",
+    "box": [
+      359,
+      241,
+      139,
+      28
+    ],
+    "point": [
+      85.7,
+      94.4
+    ],
+    "image_size": [
+      500,
+      270
+    ]
+  },
+  {
+    "id": "gqa_14320199",
+    "image_id": "285606",
+    "question": "What color is the chair to the left of the kid?",
+    "answer": "gray",
+    "object": "chair",
+    "attribute": "color",
+    "box": [
+      24,
+      195,
+      121,
+      245
+    ],
+    "point": [
+      18.7,
+      52.6
+    ],
+    "image_size": [
+      453,
+      604
+    ]
+  },
+  {
+    "id": "gqa_02253211",
+    "image_id": "286052",
+    "question": "What color are the shorts?",
+    "answer": "green",
+    "object": "shorts",
+    "attribute": "color",
+    "box": [
+      267,
+      581,
+      182,
+      162
+    ],
+    "point": [
+      46.8,
+      64.6
+    ],
+    "image_size": [
+      765,
+      1024
+    ]
+  },
+  {
+    "id": "gqa_12328848",
+    "image_id": "2379288",
+    "question": "What size are the food near the butter?",
+    "answer": "large",
+    "object": "pancakes",
+    "attribute": "size",
+    "box": [
+      311,
+      107,
+      188,
+      173
+    ],
+    "point": [
+      81.0,
+      54.2
+    ],
+    "image_size": [
+      500,
+      357
+    ]
+  },
+  {
+    "id": "gqa_00393466",
+    "image_id": "2384851",
+    "question": "Which color do you think the logo is?",
+    "answer": "red",
+    "object": "logo",
+    "attribute": "color",
+    "box": [
+      404,
+      264,
+      80,
+      11
+    ],
+    "point": [
+      88.8,
+      95.9
+    ],
+    "image_size": [
+      500,
+      281
+    ]
+  },
+  {
+    "id": "gqa_03188503",
+    "image_id": "2363619",
+    "question": "What is the fence to the right of the baby made of?",
+    "answer": "wood",
+    "object": "fence",
+    "attribute": "material",
+    "box": [
+      131,
+      146,
+      368,
+      203
+    ],
+    "point": [
+      63.0,
+      66.0
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_15448157",
+    "image_id": "2318995",
+    "question": "What color is the rug?",
+    "answer": "red",
+    "object": "rug",
+    "attribute": "color",
+    "box": [
+      1,
+      255,
+      165,
+      79
+    ],
+    "point": [
+      16.7,
+      88.2
+    ],
+    "image_size": [
+      500,
+      334
+    ]
+  },
+  {
+    "id": "gqa_03653644",
+    "image_id": "2324196",
+    "question": "What color does the train car that is to the right of the other train car have?",
+    "answer": "beige",
+    "object": "train car",
+    "attribute": "color",
+    "box": [
+      391,
+      145,
+      53,
+      38
+    ],
+    "point": [
+      83.5,
+      49.2
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_04196030",
+    "image_id": "2390672",
+    "question": "How large is the car the dog is sitting inside of?",
+    "answer": "small",
+    "object": "car",
+    "attribute": "size",
+    "box": [
+      30,
+      104,
+      469,
+      214
+    ],
+    "point": [
+      52.9,
+      56.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_16227144",
+    "image_id": "53",
+    "question": "What color is the car next to the motorbike?",
+    "answer": "white",
+    "object": "car",
+    "attribute": "color",
+    "box": [
+      625,
+      302,
+      135,
+      54
+    ],
+    "point": [
+      86.6,
+      61.6
+    ],
+    "image_size": [
+      800,
+      534
+    ]
+  },
+  {
+    "id": "gqa_02660789",
+    "image_id": "2320375",
+    "question": "Which color do you think the jacket the boy is wearing is?",
+    "answer": "pink",
+    "object": "jacket",
+    "attribute": "color",
+    "box": [
+      167,
+      122,
+      115,
+      199
+    ],
+    "point": [
+      59.9,
+      44.3
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_06879906",
+    "image_id": "1593198",
+    "question": "What is the color of the sheets on the bed?",
+    "answer": "red",
+    "object": "sheets",
+    "attribute": "color",
+    "box": [
+      377,
+      279,
+      302,
+      98
+    ],
+    "point": [
+      51.6,
+      42.7
+    ],
+    "image_size": [
+      1024,
+      768
+    ]
+  },
+  {
+    "id": "gqa_0230921",
+    "image_id": "2395327",
+    "question": "What color is the car to the left of the van?",
+    "answer": "gold",
+    "object": "car",
+    "attribute": "color",
+    "box": [
+      274,
+      71,
+      24,
+      17
+    ],
+    "point": [
+      57.2,
+      45.2
+    ],
+    "image_size": [
+      500,
+      176
+    ]
+  },
+  {
+    "id": "gqa_14295461",
+    "image_id": "2407271",
+    "question": "What color is the sky?",
+    "answer": "white",
+    "object": "sky",
+    "attribute": "color",
+    "box": [
+      3,
+      0,
+      497,
+      95
+    ],
+    "point": [
+      50.3,
+      20.6
+    ],
+    "image_size": [
+      500,
+      231
+    ]
+  },
+  {
+    "id": "gqa_19599178",
+    "image_id": "2366080",
+    "question": "What color is the barn?",
+    "answer": "white",
+    "object": "barn",
+    "attribute": "color",
+    "box": [
+      3,
+      3,
+      495,
+      177
+    ],
+    "point": [
+      50.1,
+      24.3
+    ],
+    "image_size": [
+      500,
+      376
+    ]
+  },
+  {
+    "id": "gqa_19445073",
+    "image_id": "2358605",
+    "question": "Which color is the trashcan?",
+    "answer": "blue",
+    "object": "trash can",
+    "attribute": "color",
+    "box": [
+      0,
+      289,
+      89,
+      120
+    ],
+    "point": [
+      11.9,
+      69.8
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_05957199",
+    "image_id": "2417912",
+    "question": "What is the fence that is to the left of the man made of?",
+    "answer": "wood",
+    "object": "fence",
+    "attribute": "material",
+    "box": [
+      6,
+      117,
+      85,
+      62
+    ],
+    "point": [
+      9.7,
+      39.5
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_19747785",
+    "image_id": "2336089",
+    "question": "What color is the floor?",
+    "answer": "red",
+    "object": "floor",
+    "attribute": "color",
+    "box": [
+      0,
+      246,
+      499,
+      128
+    ],
+    "point": [
+      49.9,
+      82.7
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_09159164",
+    "image_id": "2393318",
+    "question": "Which color is the star?",
+    "answer": "red",
+    "object": "star",
+    "attribute": "color",
+    "box": [
+      220,
+      224,
+      32,
+      55
+    ],
+    "point": [
+      47.2,
+      75.8
+    ],
+    "image_size": [
+      500,
+      332
+    ]
+  },
+  {
+    "id": "gqa_05856626",
+    "image_id": "2381551",
+    "question": "What color does the toilet brush have?",
+    "answer": "white",
+    "object": "toilet brush",
+    "attribute": "color",
+    "box": [
+      35,
+      338,
+      35,
+      131
+    ],
+    "point": [
+      10.5,
+      80.7
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_03947100",
+    "image_id": "2405452",
+    "question": "Which color is this pillowcase?",
+    "answer": "yellow",
+    "object": "pillowcase",
+    "attribute": "color",
+    "box": [
+      220,
+      60,
+      280,
+      220
+    ],
+    "point": [
+      72.0,
+      45.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_05476376",
+    "image_id": "2335668",
+    "question": "What color does the shirt the man is in have?",
+    "answer": "white",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      57,
+      152,
+      36,
+      17
+    ],
+    "point": [
+      17.6,
+      76.4
+    ],
+    "image_size": [
+      425,
+      210
+    ]
+  },
+  {
+    "id": "gqa_06812059",
+    "image_id": "2356796",
+    "question": "How large are the trees?",
+    "answer": "small",
+    "object": "trees",
+    "attribute": "size",
+    "box": [
+      0,
+      101,
+      499,
+      74
+    ],
+    "point": [
+      49.9,
+      41.4
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_00435266",
+    "image_id": "2408537",
+    "question": "What do you think is the color of the purse the woman is carrying?",
+    "answer": "brown",
+    "object": "purse",
+    "attribute": "color",
+    "box": [
+      14,
+      423,
+      36,
+      76
+    ],
+    "point": [
+      8.5,
+      92.2
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_12377774",
+    "image_id": "2367941",
+    "question": "What color is the box?",
+    "answer": "black",
+    "object": "box",
+    "attribute": "color",
+    "box": [
+      233,
+      106,
+      129,
+      70
+    ],
+    "point": [
+      59.5,
+      34.0
+    ],
+    "image_size": [
+      500,
+      415
+    ]
+  },
+  {
+    "id": "gqa_0447429",
+    "image_id": "552",
+    "question": "What is the basket made of?",
+    "answer": "wood",
+    "object": "basket",
+    "attribute": "material",
+    "box": [
+      308,
+      380,
+      261,
+      181
+    ],
+    "point": [
+      54.8,
+      78.4
+    ],
+    "image_size": [
+      800,
+      600
+    ]
+  },
+  {
+    "id": "gqa_11330440",
+    "image_id": "2409677",
+    "question": "What color is the train the people are beside of?",
+    "answer": "orange",
+    "object": "train",
+    "attribute": "color",
+    "box": [
+      170,
+      130,
+      213,
+      122
+    ],
+    "point": [
+      55.3,
+      57.4
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_04557069",
+    "image_id": "2379855",
+    "question": "What color is the dome?",
+    "answer": "white",
+    "object": "dome",
+    "attribute": "color",
+    "box": [
+      206,
+      0,
+      125,
+      117
+    ],
+    "point": [
+      53.7,
+      18.9
+    ],
+    "image_size": [
+      500,
+      310
+    ]
+  },
+  {
+    "id": "gqa_101044989",
+    "image_id": "2366382",
+    "question": "What is the color of the trousers that the man is wearing?",
+    "answer": "khaki",
+    "object": "pants",
+    "attribute": "color",
+    "box": [
+      205,
+      164,
+      92,
+      94
+    ],
+    "point": [
+      50.2,
+      63.4
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_031010270",
+    "image_id": "2319993",
+    "question": "What material was used to make the fence?",
+    "answer": "metal",
+    "object": "fence",
+    "attribute": "material",
+    "box": [
+      2,
+      83,
+      328,
+      139
+    ],
+    "point": [
+      33.2,
+      30.5
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_12215425",
+    "image_id": "2344983",
+    "question": "What is the color of the skateboard?",
+    "answer": "brown",
+    "object": "skateboard",
+    "attribute": "color",
+    "box": [
+      74,
+      227,
+      170,
+      204
+    ],
+    "point": [
+      42.5,
+      65.8
+    ],
+    "image_size": [
+      374,
+      500
+    ]
+  },
+  {
+    "id": "gqa_18547282",
+    "image_id": "2322018",
+    "question": "Of what color is the blanket on the bed?",
+    "answer": "gray",
+    "object": "blanket",
+    "attribute": "color",
+    "box": [
+      108,
+      36,
+      224,
+      136
+    ],
+    "point": [
+      66.1,
+      20.8
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_0627923",
+    "image_id": "2407025",
+    "question": "What is the shape of the table the magazine is on?",
+    "answer": "round",
+    "object": "table",
+    "attribute": "shape",
+    "box": [
+      20,
+      251,
+      203,
+      81
+    ],
+    "point": [
+      24.3,
+      87.8
+    ],
+    "image_size": [
+      500,
+      332
+    ]
+  },
+  {
+    "id": "gqa_08362078",
+    "image_id": "2319492",
+    "question": "What is the color of the bracelet?",
+    "answer": "blue",
+    "object": "bracelet",
+    "attribute": "color",
+    "box": [
+      0,
+      272,
+      82,
+      103
+    ],
+    "point": [
+      8.2,
+      86.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_14634789",
+    "image_id": "2384419",
+    "question": "What material is that floor?",
+    "answer": "wood",
+    "object": "floor",
+    "attribute": "material",
+    "box": [
+      192,
+      171,
+      281,
+      90
+    ],
+    "point": [
+      66.5,
+      57.4
+    ],
+    "image_size": [
+      500,
+      376
+    ]
+  },
+  {
+    "id": "gqa_05663603",
+    "image_id": "2410404",
+    "question": "Which color is the car next to the other car?",
+    "answer": "red",
+    "object": "car",
+    "attribute": "color",
+    "box": [
+      393,
+      117,
+      40,
+      34
+    ],
+    "point": [
+      82.6,
+      35.0
+    ],
+    "image_size": [
+      500,
+      383
+    ]
+  },
+  {
+    "id": "gqa_11482294",
+    "image_id": "2341813",
+    "question": "Of which color is the shirt the boy is wearing?",
+    "answer": "green",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      192,
+      112,
+      61,
+      84
+    ],
+    "point": [
+      44.5,
+      40.6
+    ],
+    "image_size": [
+      500,
+      379
+    ]
+  },
+  {
+    "id": "gqa_02379867",
+    "image_id": "2390208",
+    "question": "The chair is of which color?",
+    "answer": "white",
+    "object": "chair",
+    "attribute": "color",
+    "box": [
+      181,
+      113,
+      94,
+      135
+    ],
+    "point": [
+      45.6,
+      54.4
+    ],
+    "image_size": [
+      500,
+      332
+    ]
+  },
+  {
+    "id": "gqa_00796239",
+    "image_id": "2326829",
+    "question": "What shape is this bowl?",
+    "answer": "round",
+    "object": "bowl",
+    "attribute": "shape",
+    "box": [
+      21,
+      41,
+      255,
+      121
+    ],
+    "point": [
+      29.7,
+      27.1
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_07718009",
+    "image_id": "2398725",
+    "question": "Which color does the helmet have?",
+    "answer": "black",
+    "object": "helmet",
+    "attribute": "color",
+    "box": [
+      178,
+      102,
+      54,
+      54
+    ],
+    "point": [
+      61.6,
+      25.8
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_01832642",
+    "image_id": "2414749",
+    "question": "What color is the butterfly on the banana?",
+    "answer": "brown",
+    "object": "butterfly",
+    "attribute": "color",
+    "box": [
+      90,
+      73,
+      144,
+      122
+    ],
+    "point": [
+      32.4,
+      35.7
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_14184252",
+    "image_id": "2365132",
+    "question": "How big are the rocks?",
+    "answer": "large",
+    "object": "rocks",
+    "attribute": "size",
+    "box": [
+      71,
+      274,
+      77,
+      46
+    ],
+    "point": [
+      21.9,
+      79.2
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_06931655",
+    "image_id": "2415026",
+    "question": "Which color is the bookcase?",
+    "answer": "black",
+    "object": "bookcase",
+    "attribute": "color",
+    "box": [
+      32,
+      83,
+      108,
+      78
+    ],
+    "point": [
+      17.2,
+      32.0
+    ],
+    "image_size": [
+      500,
+      381
+    ]
+  },
+  {
+    "id": "gqa_13718167",
+    "image_id": "2397608",
+    "question": "What is the color of the pillow?",
+    "answer": "orange",
+    "object": "pillow",
+    "attribute": "color",
+    "box": [
+      372,
+      325,
+      93,
+      127
+    ],
+    "point": [
+      90.0,
+      77.7
+    ],
+    "image_size": [
+      465,
+      500
+    ]
+  },
+  {
+    "id": "gqa_17427390",
+    "image_id": "2401937",
+    "question": "What color do you think is the water?",
+    "answer": "brown",
+    "object": "water",
+    "attribute": "color",
+    "box": [
+      0,
+      237,
+      497,
+      137
+    ],
+    "point": [
+      49.7,
+      81.5
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_01676323",
+    "image_id": "1965",
+    "question": "What's the path made of?",
+    "answer": "concrete",
+    "object": "path",
+    "attribute": "material",
+    "box": [
+      0,
+      425,
+      799,
+      113
+    ],
+    "point": [
+      49.9,
+      80.2
+    ],
+    "image_size": [
+      800,
+      600
+    ]
+  },
+  {
+    "id": "gqa_04412476",
+    "image_id": "2315544",
+    "question": "What is the color of the table the vase is standing on?",
+    "answer": "yellow",
+    "object": "table",
+    "attribute": "color",
+    "box": [
+      2,
+      385,
+      321,
+      113
+    ],
+    "point": [
+      44.3,
+      88.3
+    ],
+    "image_size": [
+      367,
+      500
+    ]
+  },
+  {
+    "id": "gqa_08813584",
+    "image_id": "2384276",
+    "question": "What color is the lipstick?",
+    "answer": "red",
+    "object": "lipstick",
+    "attribute": "color",
+    "box": [
+      67,
+      167,
+      30,
+      12
+    ],
+    "point": [
+      16.4,
+      61.6
+    ],
+    "image_size": [
+      500,
+      281
+    ]
+  },
+  {
+    "id": "gqa_12282504",
+    "image_id": "2354253",
+    "question": "What is the cup on the table made of?",
+    "answer": "glass",
+    "object": "cup",
+    "attribute": "material",
+    "box": [
+      268,
+      268,
+      43,
+      62
+    ],
+    "point": [
+      57.9,
+      90.3
+    ],
+    "image_size": [
+      500,
+      331
+    ]
+  },
+  {
+    "id": "gqa_13379799",
+    "image_id": "2407334",
+    "question": "What color is the grass in the field?",
+    "answer": "green",
+    "object": "grass",
+    "attribute": "color",
+    "box": [
+      87,
+      420,
+      95,
+      14
+    ],
+    "point": [
+      40.4,
+      85.4
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_191008057",
+    "image_id": "1592463",
+    "question": "What color is the shirt the person is wearing?",
+    "answer": "green",
+    "object": "shirt",
+    "attribute": "color",
+    "box": [
+      741,
+      663,
+      45,
+      44
+    ],
+    "point": [
+      90.5,
+      66.9
+    ],
+    "image_size": [
+      844,
+      1024
+    ]
+  },
+  {
+    "id": "gqa_17324111",
+    "image_id": "2358281",
+    "question": "What is the color of the keyboard that the computer mouse is to the right of?",
+    "answer": "gray",
+    "object": "keyboard",
+    "attribute": "color",
+    "box": [
+      45,
+      283,
+      295,
+      92
+    ],
+    "point": [
+      38.5,
+      87.7
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_14136673",
+    "image_id": "2409528",
+    "question": "What is the table made of?",
+    "answer": "metal",
+    "object": "table",
+    "attribute": "material",
+    "box": [
+      1,
+      152,
+      497,
+      223
+    ],
+    "point": [
+      49.9,
+      70.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_17818470",
+    "image_id": "2382014",
+    "question": "What is the lamp made of?",
+    "answer": "glass",
+    "object": "lamp",
+    "attribute": "material",
+    "box": [
+      436,
+      131,
+      24,
+      101
+    ],
+    "point": [
+      89.6,
+      54.5
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_19953601",
+    "image_id": "2343332",
+    "question": "What color are the shoes?",
+    "answer": "red",
+    "object": "shoes",
+    "attribute": "color",
+    "box": [
+      277,
+      285,
+      130,
+      26
+    ],
+    "point": [
+      68.4,
+      83.5
+    ],
+    "image_size": [
+      500,
+      357
+    ]
+  },
+  {
+    "id": "gqa_03561692",
+    "image_id": "2398213",
+    "question": "What color do you think the cap has?",
+    "answer": "white",
+    "object": "cap",
+    "attribute": "color",
+    "box": [
+      77,
+      19,
+      26,
+      15
+    ],
+    "point": [
+      18.0,
+      7.8
+    ],
+    "image_size": [
+      500,
+      341
+    ]
+  },
+  {
+    "id": "gqa_00368499",
+    "image_id": "2396736",
+    "question": "Which color are the clouds in the sky?",
+    "answer": "gray",
+    "object": "clouds",
+    "attribute": "color",
+    "box": [
+      440,
+      50,
+      60,
+      80
+    ],
+    "point": [
+      94.0,
+      27.1
+    ],
+    "image_size": [
+      500,
+      332
+    ]
+  },
+  {
+    "id": "gqa_00719102",
+    "image_id": "2410321",
+    "question": "How big is the animal behind the fence?",
+    "answer": "large",
+    "object": "cow",
+    "attribute": "size",
+    "box": [
+      210,
+      51,
+      164,
+      173
+    ],
+    "point": [
+      77.9,
+      27.5
+    ],
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "id": "gqa_01404022",
+    "image_id": "2412990",
+    "question": "What is the color of the table that the telephone is on?",
+    "answer": "brown",
+    "object": "table",
+    "attribute": "color",
+    "box": [
+      35,
+      2,
+      464,
+      370
+    ],
+    "point": [
+      53.4,
+      49.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_04855059",
+    "image_id": "2389911",
+    "question": "How large is the house?",
+    "answer": "small",
+    "object": "house",
+    "attribute": "size",
+    "box": [
+      14,
+      45,
+      212,
+      108
+    ],
+    "point": [
+      24.0,
+      29.7
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_1895965",
+    "image_id": "2343308",
+    "question": "The powerlines have which color?",
+    "answer": "brown",
+    "object": "power lines",
+    "attribute": "color",
+    "box": [
+      448,
+      161,
+      39,
+      49
+    ],
+    "point": [
+      93.5,
+      46.4
+    ],
+    "image_size": [
+      500,
+      400
+    ]
+  },
+  {
+    "id": "gqa_10875553",
+    "image_id": "2412759",
+    "question": "What color is the laptop that is on the table?",
+    "answer": "gray",
+    "object": "laptop",
+    "attribute": "color",
+    "box": [
+      4,
+      1,
+      93,
+      47
+    ],
+    "point": [
+      10.1,
+      7.4
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_17976343",
+    "image_id": "2398918",
+    "question": "The house the vehicle is to the right of has what color?",
+    "answer": "gray",
+    "object": "house",
+    "attribute": "color",
+    "box": [
+      26,
+      252,
+      160,
+      70
+    ],
+    "point": [
+      31.5,
+      57.4
+    ],
+    "image_size": [
+      337,
+      500
+    ]
+  },
+  {
+    "id": "gqa_1669554",
+    "image_id": "2324070",
+    "question": "The plate on the bike is which color?",
+    "answer": "yellow",
+    "object": "plate",
+    "attribute": "color",
+    "box": [
+      91,
+      167,
+      36,
+      25
+    ],
+    "point": [
+      21.8,
+      53.9
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_0099731",
+    "image_id": "2392093",
+    "question": "What is the color of the fence near the plants?",
+    "answer": "white",
+    "object": "fence",
+    "attribute": "color",
+    "box": [
+      81,
+      402,
+      83,
+      97
+    ],
+    "point": [
+      24.5,
+      90.1
+    ],
+    "image_size": [
+      500,
+      500
+    ]
+  },
+  {
+    "id": "gqa_13746047",
+    "image_id": "2414141",
+    "question": "What is the helmet made of?",
+    "answer": "metal",
+    "object": "helmet",
+    "attribute": "material",
+    "box": [
+      17,
+      209,
+      45,
+      49
+    ],
+    "point": [
+      9.9,
+      46.7
+    ],
+    "image_size": [
+      400,
+      500
+    ]
+  },
+  {
+    "id": "gqa_10827493",
+    "image_id": "2400378",
+    "question": "What is the color of the flower?",
+    "answer": "yellow",
+    "object": "flower",
+    "attribute": "color",
+    "box": [
+      418,
+      285,
+      30,
+      23
+    ],
+    "point": [
+      86.6,
+      89.0
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_08427493",
+    "image_id": "2319912",
+    "question": "What is the bowl made of?",
+    "answer": "wood",
+    "object": "bowl",
+    "attribute": "material",
+    "box": [
+      0,
+      9,
+      269,
+      66
+    ],
+    "point": [
+      26.9,
+      12.6
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_06720724",
+    "image_id": "2320942",
+    "question": "What makes up the fence?",
+    "answer": "metal",
+    "object": "fence",
+    "attribute": "material",
+    "box": [
+      0,
+      172,
+      497,
+      97
+    ],
+    "point": [
+      49.7,
+      58.8
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_1722851",
+    "image_id": "2408106",
+    "question": "What color is the grass?",
+    "answer": "green",
+    "object": "grass",
+    "attribute": "color",
+    "box": [
+      0,
+      256,
+      500,
+      76
+    ],
+    "point": [
+      50.0,
+      88.3
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_0923816",
+    "image_id": "2383557",
+    "question": "That coat is what color?",
+    "answer": "gray",
+    "object": "coat",
+    "attribute": "color",
+    "box": [
+      254,
+      125,
+      124,
+      192
+    ],
+    "point": [
+      63.2,
+      58.9
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_0928200",
+    "image_id": "2330759",
+    "question": "What color is the bowl?",
+    "answer": "brown",
+    "object": "bowl",
+    "attribute": "color",
+    "box": [
+      216,
+      214,
+      38,
+      20
+    ],
+    "point": [
+      47.0,
+      77.8
+    ],
+    "image_size": [
+      500,
+      288
+    ]
+  },
+  {
+    "id": "gqa_01613031",
+    "image_id": "2359919",
+    "question": "What color are the snow pants the boy is in?",
+    "answer": "black",
+    "object": "snow pants",
+    "attribute": "color",
+    "box": [
+      128,
+      281,
+      151,
+      123
+    ],
+    "point": [
+      61.1,
+      68.5
+    ],
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "id": "gqa_08746920",
+    "image_id": "2342167",
+    "question": "What is the color of the sand?",
+    "answer": "red",
+    "object": "sand",
+    "attribute": "color",
+    "box": [
+      3,
+      186,
+      68,
+      29
+    ],
+    "point": [
+      7.4,
+      60.2
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_101031243",
+    "image_id": "2404577",
+    "question": "What color is the hair?",
+    "answer": "dark",
+    "object": "hair",
+    "attribute": "color",
+    "box": [
+      86,
+      212,
+      18,
+      23
+    ],
+    "point": [
+      19.0,
+      67.1
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_021022790",
+    "image_id": "2335238",
+    "question": "What color are the shorts?",
+    "answer": "blue",
+    "object": "shorts",
+    "attribute": "color",
+    "box": [
+      380,
+      199,
+      32,
+      20
+    ],
+    "point": [
+      79.2,
+      52.2
+    ],
+    "image_size": [
+      500,
+      400
+    ]
+  },
+  {
+    "id": "gqa_08201245",
+    "image_id": "3220",
+    "question": "Which color is the van that is to the right of the other van?",
+    "answer": "green",
+    "object": "van",
+    "attribute": "color",
+    "box": [
+      132,
+      258,
+      188,
+      208
+    ],
+    "point": [
+      28.2,
+      60.3
+    ],
+    "image_size": [
+      800,
+      600
+    ]
+  },
+  {
+    "id": "gqa_05295484",
+    "image_id": "2371532",
+    "question": "What color do you think the couch the cat is on is?",
+    "answer": "gray",
+    "object": "couch",
+    "attribute": "color",
+    "box": [
+      2,
+      81,
+      498,
+      267
+    ],
+    "point": [
+      50.2,
+      61.5
+    ],
+    "image_size": [
+      500,
+      349
+    ]
+  },
+  {
+    "id": "gqa_10815023",
+    "image_id": "2338911",
+    "question": "What is the toaster made out of?",
+    "answer": "metal",
+    "object": "toaster",
+    "attribute": "material",
+    "box": [
+      1,
+      144,
+      77,
+      136
+    ],
+    "point": [
+      7.9,
+      56.5
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "id": "gqa_08852414",
+    "image_id": "2400588",
+    "question": "What color is the can that is beside the pizza?",
+    "answer": "white",
+    "object": "can",
+    "attribute": "color",
+    "box": [
+      343,
+      9,
+      77,
+      190
+    ],
+    "point": [
+      76.3,
+      31.4
+    ],
+    "image_size": [
+      500,
+      331
+    ]
+  },
+  {
+    "id": "gqa_19408846",
+    "image_id": "2361787",
+    "question": "Which color is the tail?",
+    "answer": "black",
+    "object": "tail",
+    "attribute": "color",
+    "box": [
+      382,
+      140,
+      79,
+      129
+    ],
+    "point": [
+      84.3,
+      61.4
+    ],
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "id": "gqa_06724614",
+    "image_id": "2346462",
+    "question": "What is the color of the logo that is on the side of the truck?",
+    "answer": "yellow",
+    "object": "logo",
+    "attribute": "color",
+    "box": [
+      194,
+      135,
+      52,
+      47
+    ],
+    "point": [
+      44.0,
+      42.3
+    ],
+    "image_size": [
+      500,
+      375
+    ]
+  }
+]

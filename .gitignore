@@ -6,7 +6,24 @@ __pycache__/
 *.log
 # 원본 생성 응답은 로컬 분석용으로만 보관
 results/**/predictions.jsonl
+# Local model weights and training checkpoints
+/outputs/
+# Excluded GQA coordinate-removal experiment
+/datasets/point_gqa_4k/no_gqa_coordinates/
+/results/point_gqa_4k_no_gqa_coordinates_local_base_mmmu_full900/
 # Large Point-CoT artifacts (download locally)
 processed/Point-CoT_qwen3vl_integrated.json
 source_images/
 datasets/point_cot/*.json
+
+# Dataset assets stored outside Git
+/datasets/point_gqa_4k/downloads/
+/datasets/point_gqa_4k/images/
+/datasets/m3cot_2048/
+/datasets/rl_pick_base/raw.jsonl
+
+# Split exports duplicated in the mixed training JSONs
+/datasets/mixed_sft_3k/point_cot_24k.json
+/datasets/mixed_sft_3k/mmvu_6k.json
+/datasets/mixed_sft_10k/point_cot_8k.json
+/datasets/mixed_sft_10k/mmvu_2k.json
